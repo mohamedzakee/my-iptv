@@ -72,15 +72,39 @@ with ThreadPoolExecutor(32) as ex:
     ok = list(ex.map(lambda x: works(x[2]), wanted))
 
 lines, report, count = ["#EXTM3U"], [], {}
+listed = {g: [] for g in CHANNELS}
 for (g, cid, e), good in zip(wanted, ok):
     report.append(f"{'OK  ' if good else 'DEAD'} {g:18} {e['name']}  {e['url']}")
     if not good or count.get(cid, 0) >= MAX_PER_CHANNEL or "Geo-blocked" in e["name"] or SKIP.search(e["name"]):
         continue
     count[cid] = count.get(cid, 0) + 1
     name = re.sub(r"\s*\[.*?\]", "", e["name"]).strip()
+    if count[cid] == 1:
+        listed[g].append(names.get(cid, name))
     lines.append(f'#EXTINF:-1 tvg-id="{cid}" tvg-logo="{logos.get(cid, "")}" group-title="{g}",{name}')
     lines += e["opts"] + [e["url"]]
 
 open(OUT, "w", encoding="utf-8").write("\n".join(lines) + "\n")
 open(os.path.join(os.path.dirname(OUT) or ".", "report.txt"), "w", encoding="utf-8").write("\n".join(report) + "\n")
 print(f"{sum(count.values())} working streams for {len(count)} channels (tested {len(wanted)})")
+
+# README with the current channel list
+from datetime import datetime, timezone, timedelta
+now = datetime.now(timezone(timedelta(hours=5, minutes=30))).strftime("%d %b %Y, %I:%M %p")
+md = ["# My IPTV", "",
+      "Tamil, Sri Lankan, Cricket, English kids and Islamic TV channels, filtered from "
+      "[iptv-org/iptv](https://github.com/iptv-org/iptv).", "",
+      "## Playlist URL", "", "```", "https://raw.githubusercontent.com/mohamedzakee/my-iptv/main/tv.m3u", "```", "",
+      "Paste this link into VLC (Media \u2192 Open Network Stream), TiviMate or IPTV Smarters.", "",
+      f"## Channels ({sum(len(v) for v in listed.values())} working)", "",
+      f"_Last checked: {now} (Sri Lanka time). Updated automatically every day; dead streams are dropped "
+      "and up to 2 working streams are kept per channel._", ""]
+for g, chs in listed.items():
+    md += [f"### {g} ({len(chs)})", ""]
+    md += [f"- {c}" for c in chs] if chs else ["_No working streams right now._"]
+    md.append("")
+md += ["## Notes", "",
+       "- These are free public streams found by the iptv-org community. Some may stop working or play only at certain hours.",
+       "- See [report.txt](report.txt) for the result of every stream tested.",
+       "- Channel list is set in [scripts/build.py](scripts/build.py)."]
+open(os.path.join(os.path.dirname(OUT) or ".", "README.md"), "w", encoding="utf-8").write("\n".join(md) + "\n")
