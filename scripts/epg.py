@@ -50,7 +50,7 @@ def convert(guide, out):
         if stop < now - 3600 or start > now + 36 * 3600:
             continue
         title = (p.findtext("title") or "").strip()
-        if title:
+        if title and not re.search(r"guide is not available|no information|to be announced", title, re.I):
             cid = p.get("channel", "").split("@")[0]
             progs.setdefault(cid, []).append([start, stop, re.sub(r"\s+", " ", title)[:80]])
     for v in progs.values():

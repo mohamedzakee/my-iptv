@@ -43,7 +43,6 @@ class RowAdapter(
         vh.list.layoutManager = LinearLayoutManager(parent.context, RecyclerView.HORIZONTAL, false)
             .apply { initialPrefetchItemCount = 6 }
         vh.list.setRecycledViewPool(pool)
-        vh.list.setHasFixedSize(true)
         vh.list.itemAnimator = null
         return vh
     }
