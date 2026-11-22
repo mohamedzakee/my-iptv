@@ -1,0 +1,26 @@
+name: Update playlist
+on:
+  schedule:
+    - cron: "17 21 * * *"   # daily, 2:47 AM Sri Lanka time
+  workflow_dispatch:
+  push:
+    paths: ["scripts/**", ".github/workflows/**"]
+permissions:
+  contents: write
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Get iptv-org data
+        run: |
+          git clone -q --depth 1 https://github.com/iptv-org/iptv.git /tmp/src/iptv
+          git clone -q --depth 1 https://github.com/iptv-org/database.git /tmp/src/database
+      - name: Build and test streams
+        run: python3 scripts/build.py /tmp/src tv.m3u
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add tv.m3u report.txt
+          git diff --cached --quiet || (git commit -m "Update playlist" && git push)

@@ -5,5 +5,5 @@ Tamil, Sri Lankan and Cricket channels, filtered from [iptv-org/iptv](https://gi
 Playlist URL:
 
 ```
-https://raw.githubusercontent.com/mohamedzakee/my-iptv/main/Tamil_SriLanka_Cricket.m3u
+https://raw.githubusercontent.com/mohamedzakee/my-iptv/main/tv.m3u
 ```
