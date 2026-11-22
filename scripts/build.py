@@ -9,6 +9,10 @@ UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like 
 
 # group -> channel ids in iptv-org database (order = order in playlist)
 CHANNELS = {
+    "Kids (English)": ["CBeebies.uk", "CBBC.uk", "PBSKids.us", "CartoonNetwork.us", "CartoonNetworkAsia.sg",
+                       "CartoonitoAsia.sg", "NickJr.us", "Nickelodeon.us", "DisneyJunior.us", "DisneyChannel.us",
+                       "Boomerang.us", "BabyTV.uk", "PeppaPig.us", "SuperSimpleSongs.us", "MoonbugKids.uk",
+                       "MrBeanAnimated.uk", "TinyPop.uk"],
     "Sri Lanka": ["Rupavahini.lk", "Swarnavahini.lk", "HiruTV.lk", "SiyathaTV.lk", "TVDerana.lk",
                   "SirasaTV.lk", "ITN.lk"],
     "Sri Lankan Tamil": ["IBCTamil.uk", "ImaiTV.lk", "StarTamilTelevision.lk", "VasanthamTV.lk",
@@ -20,10 +24,6 @@ CHANNELS = {
     "Cricket": ["StarSports1.in", "StarSports1Hindi.in", "SonySportsTen1.in", "SonySportsTen2.in",
                 "SonySportsTen3Hindi.in", "SonySportsTen5.in", "DDSports.in", "Willow.us", "WillowSports.us",
                 "PTVSports.pk", "TSports.bd", "GaziTV.bd", "TenSportsPakistan.pk"],
-    "Kids (English)": ["CBeebies.uk", "CBBC.uk", "PBSKids.us", "CartoonNetwork.us", "CartoonNetworkAsia.sg",
-                       "CartoonitoAsia.sg", "NickJr.us", "Nickelodeon.us", "DisneyJunior.us", "DisneyChannel.us",
-                       "Boomerang.us", "BabyTV.uk", "PeppaPig.us", "SuperSimpleSongs.us", "MoonbugKids.uk",
-                       "MrBeanAnimated.uk", "TinyPop.uk"],
     "Islamic": ["AlQuranAlKareemTV.sa", "AlSunnahAlNabawiyahTV.sa", "MakkahTV.sa", "PeaceTVEnglish.ae",
                 "HudaTV.eg", "IslamChannel.uk", "IqraaQuran.sa", "MadaniChannelEnglish.pk", "EmanChannel.uk"],
 }
