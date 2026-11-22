@@ -4,7 +4,7 @@ on:
     - cron: "17 21 * * *"   # daily, 2:47 AM Sri Lanka time
   workflow_dispatch:
   push:
-    paths: ["scripts/**", ".github/workflows/**"]
+    paths: ["scripts/build.py", "scripts/channels.json", ".github/workflows/update.yml"]
 permissions:
   contents: write
 jobs:
@@ -23,4 +23,6 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add tv.m3u report.txt README.md
-          git diff --cached --quiet || (git commit -m "Update playlist" && git push)
+          git diff --cached --quiet && exit 0
+          git commit -m "Update playlist"
+          for i in 1 2 3; do git pull --rebase -q && git push && break; sleep 5; done

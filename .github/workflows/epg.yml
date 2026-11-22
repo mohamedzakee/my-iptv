@@ -1,0 +1,42 @@
+name: Update TV guide
+on:
+  schedule:
+    - cron: "41 20 * * *"   # daily, 2:11 AM Sri Lanka time
+  workflow_dispatch:
+  push:
+    paths: ["scripts/epg.py", "scripts/channels.json", ".github/workflows/epg.yml"]
+permissions:
+  contents: write
+concurrency:
+  group: epg
+  cancel-in-progress: true
+jobs:
+  guide:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Get iptv-org/epg
+        run: |
+          git clone -q --depth 1 https://github.com/iptv-org/epg.git /tmp/epg
+          cd /tmp/epg && npm ci --no-audit --no-fund
+      - name: Pick guide sources
+        run: python3 scripts/epg.py prepare /tmp/epg /tmp/custom.channels.xml
+      - name: Download guide
+        working-directory: /tmp/epg
+        run: |
+          npm run grab --- --channels=/tmp/custom.channels.xml --output=/tmp/guide.xml \
+            --days=2 --maxConnections=4 --timeout=15000 || echo "::warning::Some guide sources failed"
+      - name: Convert and commit
+        run: |
+          test -s /tmp/guide.xml || { echo "::error::No guide produced"; exit 1; }
+          python3 scripts/epg.py convert /tmp/guide.xml epg.json
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add epg.json
+          git diff --cached --quiet && exit 0
+          git commit -m "Update TV guide"
+          for i in 1 2 3; do git pull --rebase -q && git push && break; sleep 5; done

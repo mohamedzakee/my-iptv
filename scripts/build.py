@@ -1,5 +1,5 @@
 """Build Tamil_SriLanka_Cricket.m3u from iptv-org, keeping only streams that respond."""
-import csv, glob, os, re, sys, urllib.request
+import csv, glob, json, os, re, sys, urllib.request
 from concurrent.futures import ThreadPoolExecutor
 
 SRC = sys.argv[1]          # folder with cloned iptv-org/iptv and iptv-org/database
@@ -7,34 +7,35 @@ OUT = sys.argv[2]
 MAX_PER_CHANNEL = 2
 UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0 Safari/537.36"
 
-# group -> channel ids in iptv-org database (order = order in playlist)
-CHANNELS = {
-    "Kids (English)": ["CBeebies.uk", "CBBC.uk", "PBSKids.us", "CartoonNetwork.us", "CartoonNetworkAsia.sg",
-                       "CartoonitoAsia.sg", "NickJr.us", "Nickelodeon.us", "DisneyJunior.us", "DisneyChannel.us",
-                       "Boomerang.us", "BabyTV.uk", "PeppaPig.us", "SuperSimpleSongs.us", "MoonbugKids.uk",
-                       "MrBeanAnimated.uk", "TinyPop.uk"],
-    "Sri Lanka": ["Rupavahini.lk", "Swarnavahini.lk", "HiruTV.lk", "SiyathaTV.lk", "TVDerana.lk",
-                  "SirasaTV.lk", "ITN.lk"],
-    "Sri Lankan Tamil": ["IBCTamil.uk", "ImaiTV.lk", "StarTamilTelevision.lk", "VasanthamTV.lk",
-                         "NethraTV.lk", "CapitalTV.lk", "LankasriTV.lk"],
-    "Tamil": ["StarVijay.in", "ZeeTamil.in", "ZeeThirai.in", "ColorsTamil.in", "KalaignarTV.in",
-              "JayaPlus.in", "RajTV.in", "PolimerTV.in", "DDTamil.in", "PuthiyaThalaimurai.in",
-              "ThanthiTV.in", "News18TamilNadu.in", "News7Tamil.in", "PolimerNews.in", "SathiyamTV.in",
-              "KalaignarSeithigal.in", "ZeeTamilNews.in", "IsaiAruvi.in"],
-    "Cricket": ["StarSports1.in", "StarSports1Hindi.in", "SonySportsTen1.in", "SonySportsTen2.in",
-                "SonySportsTen3Hindi.in", "SonySportsTen5.in", "DDSports.in", "Willow.us", "WillowSports.us",
-                "PTVSports.pk", "TSports.bd", "GaziTV.bd", "TenSportsPakistan.pk"],
-    "Islamic": ["AlQuranAlKareemTV.sa", "AlSunnahAlNabawiyahTV.sa", "MakkahTV.sa", "PeaceTVEnglish.ae",
-                "HudaTV.eg", "IslamChannel.uk", "IqraaQuran.sa", "MadaniChannelEnglish.pk", "EmanChannel.uk"],
-}
+# group -> channel ids in iptv-org database, in display order. Edit scripts/channels.json to change.
+CHANNELS = json.load(open(os.path.join(os.path.dirname(__file__), "channels.json"), encoding="utf-8"))
 # drop foreign-language versions of the same channel
 SKIP = re.compile(r"Latin America|Spain|Italy|Turkiye|Thailand|Espa|Arabia|Anim\u00e9", re.I)
 
 db = os.path.join(SRC, "database/data")
 names = {r["id"]: r["name"] for r in csv.DictReader(open(f"{db}/channels.csv", encoding="utf-8"))}
+def logo_score(r):
+    """Prefer clean transparent logos (Gracenote/Wikimedia), PNG/WebP, landscape, reasonably large."""
+    url, fmt = r["url"], r["format"].upper()
+    try:
+        w, h = int(r["width"] or 0), int(r["height"] or 0)
+    except ValueError:
+        w = h = 0
+    if fmt in ("JPEG", "JPG", "SVG") or "LANDSCAPE_169" in url:
+        return -1
+    s = 0
+    if "tmsimg.com" in url: s += 4
+    if "wikimedia.org" in url or "logopedia" in url: s += 3
+    if r.get("in_use", "TRUE") == "TRUE": s += 1
+    if h and 1.0 <= w / h <= 3.2: s += 2
+    return s + min(w, 800) / 800
+
 logos = {}
 for r in csv.DictReader(open(f"{db}/logos.csv", encoding="utf-8")):
-    logos.setdefault(r["channel"], r["url"])
+    sc = logo_score(r)
+    if sc >= 0 and sc > logos.get(r["channel"], (-1, ""))[0]:
+        logos[r["channel"]] = (sc, r["url"])
+logos = {k: v[1] for k, v in logos.items()}
 
 def parse(path):
     cur = None
