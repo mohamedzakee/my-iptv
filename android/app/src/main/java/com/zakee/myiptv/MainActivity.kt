@@ -65,7 +65,6 @@ class MainActivity : AppCompatActivity() {
             ambient.visibility = View.GONE // blur is costly on older / low-memory TVs
         }
 
-        findViewById<View>(R.id.infoBtn).setOnClickListener { showDiagnostics() }
         updateBtn.setOnClickListener { vm.state.value.update?.let { installUpdate(it) } }
 
         lifecycleScope.launch {
@@ -137,8 +136,12 @@ class MainActivity : AppCompatActivity() {
         startActivity(Intent(this, PlayerActivity::class.java).putExtra(PlayerActivity.EXTRA_ID, ch.id))
     }
 
-    override fun onKeyDown(keyCode: Int, event: KeyEvent?): Boolean =
-        numbers.handle(keyCode) || super.onKeyDown(keyCode, event)
+    override fun onKeyDown(keyCode: Int, event: KeyEvent?): Boolean {
+        if (numbers.handle(keyCode)) return true
+        // Info screen lives on the remote's Menu / Info button instead of an on-screen button.
+        if (keyCode == KeyEvent.KEYCODE_MENU || keyCode == KeyEvent.KEYCODE_INFO) { showDiagnostics(); return true }
+        return super.onKeyDown(keyCode, event)
+    }
 
     // ---- update / diagnostics ------------------------------------------------------------
 
