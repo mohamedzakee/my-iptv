@@ -1,0 +1,119 @@
+#EXTM3U
+#EXTINF:-1 tvg-id="HiruTV.lk@SD" tvg-logo="https://i.imgur.com/M66UqPB.png" group-title="Sri Lanka",Hiru TV (360p) [Not 24/7]
+https://tv.hiruhost.com:1936/8012/8012/playlist.m3u8
+#EXTINF:-1 tvg-id="Rupavahini.lk@SD" tvg-logo="https://i.imgur.com/vgHTfR0.png" group-title="Sri Lanka",Rupavahini (720p)
+https://rpn.bozztv.com/slrclive/slrc/slrclive/index.m3u8
+#EXTINF:-1 tvg-id="SiyathaTV.lk@SD" tvg-logo="https://i.imgur.com/9Zc8G7i.png" group-title="Sri Lanka",Siyatha TV (576p)
+https://rtmp01.voaplus.com/hls/6x6ik312qk4grfxocfcv.m3u8
+#EXTINF:-1 tvg-id="Swarnavahini.lk@SD" tvg-logo="https://i.imgur.com/0hnpeq9.png" group-title="Sri Lanka",Swarnavahini (480p)
+https://teledrama.ebc.lk/TTT/proxy.php
+#EXTINF:-1 tvg-id="ImaiTV.lk@SD" tvg-logo="https://i.imgur.com/9tODclu.png" group-title="Sri Lankan Tamil",Imai TV (576i)
+https://jalworldiptv.vercel.app/iptv/imaitv/playlist.m3u8
+#EXTINF:-1 tvg-id="ImaiTV.lk@SD" tvg-logo="https://i.imgur.com/9tODclu.png" group-title="Sri Lankan Tamil",Imai TV (576i)
+https://live20.bozztv.com/akamaissh101/ssh101/imaitv/playlist.m3u8
+#EXTINF:-1 tvg-id="StarTamilTelevision.lk@SD" tvg-logo="https://i.imgur.com/fjHcr9z.jpg" group-title="Sri Lankan Tamil",Star Tamil Television (360p)
+https://edge4-moblive.yuppcdn.net/trans1sd/smil:strtml19.smil/playlist.m3u8?dvr=
+#EXTINF:-1 tvg-id="IBCTamil.uk@SD" tvg-logo="https://i.imgur.com/uVt9vBa.png" group-title="Sri Lankan Tamil",IBC Tamil (1080p)
+https://ibc.massstream.net/IBC/index.m3u8
+#EXTINF:-1 tvg-id="ColorsTamil.in@HD" tvg-logo="https://dtil.tmsimg.com/assets/s158241_ld_h15_aa.png?lock=720x540" group-title="Tamil",Colors Tamil HD (720p)
+https://da86m1sqpm3o0.cloudfront.net/28072023/smil:colorstamilhd11.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="DDTamil.in@SD" tvg-logo="https://dtil.tmsimg.com/assets/s142797_ld_h15_aa.png?lock=720x540" group-title="Tamil",DD Tamil (576p)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+https://fta.ektv.in/live/679/master.m3u8
+#EXTINF:-1 tvg-id="DDTamil.in@HD" tvg-logo="https://dtil.tmsimg.com/assets/s142797_ld_h15_aa.png?lock=720x540" group-title="Tamil",DD Tamil HD (1080p)
+https://cdn.pishow.tv/ott/live/1737/master.m3u8
+#EXTINF:-1 tvg-id="DDTamil.in@HD" tvg-logo="https://dtil.tmsimg.com/assets/s142797_ld_h15_aa.png?lock=720x540" group-title="Tamil",DD Tamil HD (1080p)
+https://d2lk5u59tns74c.cloudfront.net/out/v1/abf46b14847e45499f4a47f3a9afe93d/index.m3u8
+#EXTINF:-1 tvg-id="IsaiAruvi.in@SD" tvg-logo="https://dtil.tmsimg.com/assets/s143212_ld_h15_aa.png?lock=720x540" group-title="Tamil",Isai Aruvi (396p)
+https://segment.yuppcdn.net/140622/isaiaruvi/playlist.m3u8
+#EXTINF:-1 tvg-id="JayaPlus.in@SD" tvg-logo="https://dtil.tmsimg.com/assets/s143227_ld_h15_aa.png?lock=720x540" group-title="Tamil",Jaya Plus (576p)
+https://mumbai-edge.smartplaytv.in/JayaPLus/index.m3u8
+#EXTINF:-1 tvg-id="KalaignarSeithigal.in@SD" tvg-logo="https://dtil.tmsimg.com/assets/s143769_ld_h15_aa.png?lock=720x540" group-title="Tamil",Kalaignar Seithigal (576p)
+https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main/streams/in/YuppTV/KalaignarSeithigal.m3u8
+#EXTINF:-1 tvg-id="KalaignarSeithigal.in@SD" tvg-logo="https://dtil.tmsimg.com/assets/s143769_ld_h15_aa.png?lock=720x540" group-title="Tamil",Kalaignar Seithigal (576p)
+https://yuppnimresmum.akamaized.net/120723/smil:seithagal.smil/playlist.m3u8?hdnts=st=1735898689~exp=1835898688~acl=*~hmac=f5fe24724fe05481e3841f9eb5ab8efdee0a3dd83645ae9dcf45703f525bab7b
+#EXTINF:-1 tvg-id="KalaignarTV.in@SD" tvg-logo="https://dtil.tmsimg.com/assets/s143249_ld_h15_aa.png?lock=720x540" group-title="Tamil",Kalaignar TV (396p)
+https://segment.yuppcdn.net/240122/kalaignartv/playlist.m3u8
+#EXTINF:-1 tvg-id="News7Tamil.in@SD" tvg-logo="https://i.imgur.com/UjlbR4o.png" group-title="Tamil",News 7 Tamil (576p)
+https://cdn.pishow.tv/ott/live/1498/master.m3u8
+#EXTINF:-1 tvg-id="News7Tamil.in@SD" tvg-logo="https://i.imgur.com/UjlbR4o.png" group-title="Tamil",News 7 Tamil (576p)
+https://mumt07.tangotv.in/zHjX9OFlNEWS7TAMIL/index.m3u8
+#EXTINF:-1 tvg-id="News18TamilNadu.in@SD" tvg-logo="https://dtil.tmsimg.com/assets/s143619_ld_h15_aa.png?lock=720x540" group-title="Tamil",News18 Tamil Nadu (1080p)
+https://n18syndication.akamaized.net/bpk-tv/News18_Tamil_Nadu_NW18_MOB/output01/master.m3u8
+#EXTINF:-1 tvg-id="PolimerNews.in@SD" tvg-logo="https://dtil.tmsimg.com/assets/s143664_ld_h9_aa.png?lock=720x540" group-title="Tamil",Polimer News (576p)
+https://cdn.pishow.tv/ott/live/1245/master.m3u8
+#EXTINF:-1 tvg-id="PolimerNews.in@SD" tvg-logo="https://dtil.tmsimg.com/assets/s143664_ld_h9_aa.png?lock=720x540" group-title="Tamil",Polimer News (576p)
+https://mumt05.tangotv.in/87NeALx2POLIMERNEWS/index.m3u8
+#EXTINF:-1 tvg-id="PolimerTV.in@SD" tvg-logo="https://dtil.tmsimg.com/assets/s143665_ld_h15_aa.png?lock=720x540" group-title="Tamil",Polimer TV (576p)
+https://mumt04.tangotv.in/m18aqlK4POLIMERTV/index.m3u8
+#EXTINF:-1 tvg-id="PolimerTV.in@SD" tvg-logo="https://dtil.tmsimg.com/assets/s143665_ld_h15_aa.png?lock=720x540" group-title="Tamil",Polimer TV (576p)
+https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main/streams/in/YuppTV/PolimerTV.m3u8
+#EXTINF:-1 tvg-id="PuthiyaThalaimurai.in@SD" tvg-logo="https://d229kpbsb5jevy.cloudfront.net/yupptvnew/content/common/channel/logos/yattyv.png" group-title="Tamil",Puthiya Thalaimurai (576p)
+https://cdn.pishow.tv/ott/live/1261/master.m3u8
+#EXTINF:-1 tvg-id="PuthiyaThalaimurai.in@SD" tvg-logo="https://d229kpbsb5jevy.cloudfront.net/yupptvnew/content/common/channel/logos/yattyv.png" group-title="Tamil",Puthiya Thalaimurai (576p)
+https://mumbai-edge.smartplaytv.in/Puthiyathalaimurai/index.m3u8
+#EXTINF:-1 tvg-id="RajTV.in@SD" tvg-logo="https://dtil.tmsimg.com/assets/s143715_ld_h15_aa.png?lock=720x540" group-title="Tamil",Raj TV (1080p)
+https://d3kdywbtdfbp9z.cloudfront.net/v1/manifest/93ce20f0f52760bf38be911ff4c91ed02aa2fd92/dff423e0-3c82-46d6-9ecb-3baa96b5694a/b8640d6b-d131-4401-9451-944e1e65fe79/0.m3u8
+#EXTINF:-1 tvg-id="RajTV.in@SD" tvg-logo="https://dtil.tmsimg.com/assets/s143715_ld_h15_aa.png?lock=720x540" group-title="Tamil",Raj TV (1080p)
+https://livestream.rajtv.tv/hlslive/Admin/px08241087/live/RAJTV/master_1.m3u8
+#EXTINF:-1 tvg-id="SathiyamTV.in@SD" tvg-logo="https://dtil.tmsimg.com/assets/s143765_ld_h15_aa.png?lock=720x540" group-title="Tamil",Sathiyam TV (576p)
+https://mumt07.tangotv.in/zHjX9OFlSATHIYAMTV/index.m3u8
+#EXTINF:-1 tvg-id="StarVijay.in@UK" tvg-logo="https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/698/1782289770698-h.jpg" group-title="Tamil",Star Vijay (396p)
+https://da86m1sqpm3o0.cloudfront.net/28072023/smil:starvijayuk.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="ThanthiTV.in@SD" tvg-logo="https://dtil.tmsimg.com/assets/s144000_ld_h15_aa.png?lock=720x540" group-title="Tamil",Thanthi TV (576p)
+https://mumt03.tangotv.in/Dsly5z3HTHANTHITV/index.m3u8
+#EXTINF:-1 tvg-id="ThanthiTV.in@SD" tvg-logo="https://dtil.tmsimg.com/assets/s144000_ld_h15_aa.png?lock=720x540" group-title="Tamil",Thanthi TV (576p)
+https://streams.tangotv.in/THANTHITV/ORIGIN/index.m3u8
+#EXTINF:-1 tvg-id="ZeeTamil.in@SD" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG00233WCL.png?lock=720x540" group-title="Tamil",Zee Tamil (576p) [Geo-blocked]
+https://ev-eu-hw-fast-mpd.starzplayarabia.com/Zee_Tamil/dash/drm/index.mpd
+#EXTINF:-1 tvg-id="ZeeTamil.in@HD" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG00233WCL.png?lock=720x540" group-title="Tamil",Zee Tamil HD (1080p)
+https://d2o8pibksxtln6.cloudfront.net/live/media/Zee_Tamil_HD/hls/Zee_Tamil_HD.m3u8
+#EXTINF:-1 tvg-id="ZeeTamil.in@HD" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG00233WCL.png?lock=720x540" group-title="Tamil",Zee Tamil HD (720p)
+https://da86m1sqpm3o0.cloudfront.net/28072023/smil:zeetamil1.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="ZeeTamilNews.in@SD" tvg-logo="https://english.cdn.zeenews.com/images/logo/zee-tamil-logo-20.svg" group-title="Tamil",Zee Tamil News (720p)
+https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main/streams/in/ZMCL/ZeeTamilNews.m3u8
+#EXTINF:-1 tvg-id="ZeeThirai.in@HD" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG0022S9BF.png?lock=720x540" group-title="Tamil",Zee Thirai HD (1080p)
+http://116.90.120.149:8000/play/a11q/index.m3u8
+#EXTINF:-1 tvg-id="DDSports.in@SD" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_DD_SPORTS_HD/images/LOGO_HD/LOGO_HD_image.png" group-title="Cricket",DD Sports (576p)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+https://fta.ektv.in/live/64/64_0.m3u8
+#EXTINF:-1 tvg-id="DDSports.in@SD" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_DD_SPORTS_HD/images/LOGO_HD/LOGO_HD_image.png" group-title="Cricket",DD Sports (576p)
+https://mumt07.tangotv.in/zHjX9OFlDDSPORTS/index.m3u8
+#EXTINF:-1 tvg-id="DDSports.in@SD" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_DD_SPORTS_HD/images/LOGO_HD/LOGO_HD_image.png" group-title="Cricket",DD Sports SD (1080p)
+https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/b17adfe543354fdd8d189b110617cddd/index.m3u8
+#EXTINF:-1 tvg-id="DDSports.in@SD" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_DD_SPORTS_HD/images/LOGO_HD/LOGO_HD_image.png" group-title="Cricket",DD Sports SD (576p)
+https://mumbai-edge.smartplaytv.in/DDSports/index.m3u8
+#EXTINF:-1 tvg-id="GaziTV.bd@SD" tvg-logo="https://i.imgur.com/2Lzhiq6.png" group-title="Cricket",Gazi TV (1080p)
+http://tvn1.chowdhury-shaheb.com/gazitv/index.m3u8
+#EXTINF:-1 tvg-id="GaziTV.bd@SD" tvg-logo="https://i.imgur.com/2Lzhiq6.png" group-title="Cricket",Gazi TV (720p)
+http://103.135.253.32:8080/Gazi-TV/index.m3u8
+#EXTINF:-1 tvg-id="PTVSports.pk@SD" tvg-logo="https://i.imgur.com/CPm6GHA.png" group-title="Cricket",PTV Sports (1080p)
+http://103.250.28.74:8000/play/a019/index.m3u8
+#EXTINF:-1 tvg-id="PTVSports.pk@SD" tvg-logo="https://i.imgur.com/CPm6GHA.png" group-title="Cricket",PTV Sports (720p)
+https://tvsen7.aynascope.net/Sports1/index.m3u8
+#EXTINF:-1 tvg-id="SonySportsTen1.in@SD" tvg-logo="https://dtil.tmsimg.com/assets/s157591_ld_h15_aa.png?lock=720x540" group-title="Cricket",Sony Sports Ten 1 (576p)
+http://116.90.120.149:8000/play/a126/index.m3u8
+#EXTINF:-1 tvg-id="SonySportsTen1.in@HD" tvg-logo="https://dtil.tmsimg.com/assets/s157591_ld_h15_aa.png?lock=720x540" group-title="Cricket",Sony Sports Ten 1 HD (1080p)
+http://116.90.120.149:8000/play/a11t/index.m3u8
+#EXTINF:-1 tvg-id="SonySportsTen2.in@HD" tvg-logo="https://dtil.tmsimg.com/assets/s157592_ld_h15_aa.png?lock=720x540" group-title="Cricket",Sony Sports Ten 2 HD (1080p)
+http://116.90.120.149:8000/play/a137/index.m3u8
+#EXTINF:-1 tvg-id="SonySportsTen3Hindi.in@SD" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG0025TCMR.png?lock=720x540" group-title="Cricket",Sony Sports Ten 3 Hindi (1080p)
+https://r2.amml.in/sony-ten-3-hd/live.m3u8
+#EXTINF:-1 tvg-id="SonySportsTen5.in@SD" tvg-logo="https://dtil.tmsimg.com/assets/s157593_ld_h15_aa.png?lock=720x540" group-title="Cricket",Sony Sports Ten 5 (576p)
+http://116.90.120.149:8000/play/a117/index.m3u8
+#EXTINF:-1 tvg-id="StarSports1.in@HD" tvg-logo="https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/7482/1782284567482-h.jpg" group-title="Cricket",Star Sports 1 HD (1080p)
+http://116.90.120.149:8000/play/a11x/index.m3u8
+#EXTINF:-1 tvg-id="StarSports1Hindi.in@HD" tvg-logo="https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/8867/1782284658867-h.jpg" group-title="Cricket",Star Sports 1 Hindi HD (1080p)
+http://116.90.120.149:8000/play/a122/index.m3u8
+#EXTINF:-1 tvg-id="TSports.bd@SD" tvg-logo="https://i.imgur.com/2JzlorD.png" group-title="Cricket",T Sports (1080p)
+https://tvsen5.aynaott.com/TnMn5kZz8aLm/index.m3u8
+#EXTINF:-1 tvg-id="TenSportsPakistan.pk@SD" tvg-logo="https://i.imgur.com/58dIRkS.jpeg" group-title="Cricket",Ten Sports Pakistan
+http://121.91.61.106:8000/play/a04h/index.m3u8
+#EXTINF:-1 tvg-id="Willow.us@SD" tvg-logo="https://cricket.willow.tv/_nuxt/img/willow_blue_logo.362ed8e.png" group-title="Cricket",Willow (720p)
+http://tvsen5.aynascope.net/willowhd/index.m3u8
+#EXTINF:-1 tvg-id="Willow.us@SD" tvg-logo="https://cricket.willow.tv/_nuxt/img/willow_blue_logo.362ed8e.png" group-title="Cricket",Willow (720p)
+http://tvsen7.aynascope.net/rEBp38Ax/index.m3u8
+#EXTINF:-1 tvg-id="WillowSports.us@HD" tvg-logo="https://provider-static.plex.tv/epg/cms/production/acf3d1d8-c53e-49ca-86e9-0d9410b106b4/Willow_Sports_dark_Background_1500_1000_color.png" group-title="Cricket",Willow Sports (1080p)
+https://d36r8jifhgsk5j.cloudfront.net/Willow_TV1080p.m3u8
+#EXTINF:-1 tvg-id="WillowSports.us@SD" tvg-logo="https://provider-static.plex.tv/epg/cms/production/acf3d1d8-c53e-49ca-86e9-0d9410b106b4/Willow_Sports_dark_Background_1500_1000_color.png" group-title="Cricket",Willow Sports (1080p)
+https://d36r8jifhgsk5j.cloudfront.net/Willow_TV.m3u8
