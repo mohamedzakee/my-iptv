@@ -25,7 +25,7 @@ CHANNELS = {
                        "Boomerang.us", "BabyTV.uk", "PeppaPig.us", "SuperSimpleSongs.us", "MoonbugKids.uk",
                        "MrBeanAnimated.uk", "TinyPop.uk"],
     "Islamic": ["AlQuranAlKareemTV.sa", "AlSunnahAlNabawiyahTV.sa", "MakkahTV.sa", "PeaceTVEnglish.ae",
-                "HudaTV.eg", "IslamChannel.uk", "IqraaQuran.sa", "MadaniChannelEnglish.pk"],
+                "HudaTV.eg", "IslamChannel.uk", "IqraaQuran.sa", "MadaniChannelEnglish.pk", "EmanChannel.uk"],
 }
 # drop foreign-language versions of the same channel
 SKIP = re.compile(r"Latin America|Spain|Italy|Turkiye|Thailand|Espa|Arabia|Anim\u00e9", re.I)
