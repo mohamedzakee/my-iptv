@@ -16,14 +16,13 @@ Download: [my-iptv.apk](https://github.com/mohamedzakee/my-iptv/releases/downloa
 
 ## Channels (41 working)
 
-_Last checked: 22 Nov 2026, 09:52 PM (Sri Lanka time). Updated automatically every day; dead streams are dropped and up to 2 working streams are kept per channel._
+_Last checked: 22 Nov 2026, 10:29 PM (Sri Lanka time). Updated automatically every day; dead streams are dropped and up to 2 working streams are kept per channel._
 
-### Kids (English) (11)
+### Kids (English) (10)
 
 - PBS Kids
 - Cartoon Network Asia
 - Cartoonito Asia
-- Nick Jr.
 - Disney Junior
 - Disney Channel
 - Peppa Pig
@@ -61,12 +60,13 @@ _No working streams right now._
 - Zee Tamil News
 - Isai Aruvi
 
-### Cricket (4)
+### Cricket (5)
 
 - Sony Sports Ten 3 Hindi
 - DD Sports
 - Willow
 - Willow Sports
+- Gazi TV
 
 ### Islamic (7)
 
