@@ -96,6 +96,9 @@ md = ["# My IPTV", "",
       "[iptv-org/iptv](https://github.com/iptv-org/iptv).", "",
       "## Playlist URL", "", "```", "https://raw.githubusercontent.com/mohamedzakee/my-iptv/main/tv.m3u", "```", "",
       "Paste this link into VLC (Media \u2192 Open Network Stream), TiviMate or IPTV Smarters.", "",
+      "## Android TV app", "",
+      "Download: [my-iptv.apk](https://github.com/mohamedzakee/my-iptv/releases/download/app/my-iptv.apk) "
+      "(built automatically from the `android/` folder). Install it on the TV with the Downloader app.", "",
       f"## Channels ({sum(len(v) for v in listed.values())} working)", "",
       f"_Last checked: {now} (Sri Lanka time). Updated automatically every day; dead streams are dropped "
       "and up to 2 working streams are kept per channel._", ""]
