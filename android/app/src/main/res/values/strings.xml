@@ -1,10 +1,19 @@
 <resources>
     <string name="app_name">ZED.TV</string>
-    <string name="playlist_url">https://raw.githubusercontent.com/mohamedzakee/my-iptv/main/tv.m3u</string>
     <string name="loading">Loading channels…</string>
     <string name="load_failed">Couldn\'t load the channel list. Check the internet connection.</string>
-    <string name="not_available">This channel isn\'t available right now.\nPress ▲ / ▼ for another channel.</string>
+    <string name="not_available">This channel isn\'t available right now.\nPress ▲ / ▼ for another channel, or ◀ for the list.</string>
     <string name="trying_backup">Trying backup stream…</string>
     <string name="press_ok">Press OK to watch</string>
     <string name="live">LIVE</string>
+    <string name="offline">Offline</string>
+    <string name="now_fmt">Now · %1$s  (%2$s – %3$s)</string>
+    <string name="next_fmt">Next · %1$s  %2$s</string>
+    <string name="info">ZED.TV info</string>
+    <string name="crashed">ZED.TV closed unexpectedly last time</string>
+    <string name="update_available">Update available</string>
+    <string name="downloading">Downloading %1$d%%</string>
+    <string name="update_failed">Update failed – try again</string>
+    <string name="channels">Channels</string>
+    <string name="player_hint">▲ ▼ change   ◀ channel list   0–9 channel number</string>
 </resources>

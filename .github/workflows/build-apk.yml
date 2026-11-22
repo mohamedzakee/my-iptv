@@ -38,7 +38,7 @@ jobs:
         working-directory: android
         run: |
           set -o pipefail
-          gradle assembleRelease --no-daemon --stacktrace 2>&1 | tee ../build.log
+          gradle testReleaseUnitTest assembleRelease --no-daemon --stacktrace 2>&1 | tee ../build.log
       - name: Publish APK
         env:
           GH_TOKEN: ${{ github.token }}
@@ -46,8 +46,8 @@ jobs:
           cp android/app/build/outputs/apk/release/app-release.apk my-iptv.apk
           gh release delete app --yes --cleanup-tag || true
           gh release create app my-iptv.apk --target "$GITHUB_SHA" \
-            --title "My IPTV app (build ${{ github.run_number }})" \
-            --notes "Android TV app for the my-iptv playlist. Download: https://github.com/${{ github.repository }}/releases/download/app/my-iptv.apk"
+            --title "ZED.TV (build ${{ github.run_number }})" \
+            --notes "ZED.TV Android TV app. Download: https://github.com/${{ github.repository }}/releases/download/app/my-iptv.apk"
       - name: Save build log on failure
         if: failure()
         run: |

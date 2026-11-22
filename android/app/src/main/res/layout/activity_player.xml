@@ -62,11 +62,56 @@
                 android:textSize="28sp" android:textStyle="bold" />
 
             <TextView
+                android:id="@+id/infoNow"
                 android:layout_width="wrap_content" android:layout_height="wrap_content"
-                android:layout_marginTop="2dp" android:text="▲ ▼  change channel     OK  show info"
-                android:textColor="@color/text_faint" android:textSize="13sp" />
+                android:layout_marginTop="4dp" android:maxWidth="620dp" android:ellipsize="end"
+                android:maxLines="1" android:textColor="@color/text_dim" android:textSize="15sp" />
+
+            <ProgressBar
+                android:id="@+id/infoProgress"
+                style="@android:style/Widget.ProgressBar.Horizontal"
+                android:layout_width="320dp" android:layout_height="4dp"
+                android:layout_marginTop="6dp" android:max="100"
+                android:progressDrawable="@drawable/progress_glass" />
+
+            <TextView
+                android:id="@+id/infoNext"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:layout_marginTop="6dp" android:maxWidth="620dp" android:ellipsize="end"
+                android:maxLines="1" android:textColor="@color/text_faint" android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:layout_marginTop="6dp" android:text="@string/player_hint"
+                android:textColor="@color/text_faint" android:textSize="12sp" />
         </LinearLayout>
     </LinearLayout>
+
+    <!-- Channel list panel (◀) -->
+    <LinearLayout
+        android:id="@+id/panel"
+        android:layout_width="440dp" android:layout_height="match_parent"
+        android:layout_margin="24dp" android:background="@drawable/glass_panel"
+        android:orientation="vertical" android:padding="18dp" android:visibility="gone">
+        <TextView
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:layout_marginStart="8dp" android:layout_marginBottom="12dp"
+            android:text="@string/channels" android:textColor="@color/text"
+            android:textSize="22sp" android:textStyle="bold" />
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/panelList"
+            android:layout_width="match_parent" android:layout_height="match_parent"
+            android:clipToPadding="false" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/numberEntry"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:layout_gravity="top|end" android:layout_margin="48dp"
+        android:background="@drawable/glass_panel" android:minWidth="120dp" android:gravity="center"
+        android:paddingStart="28dp" android:paddingTop="12dp" android:paddingEnd="28dp" android:paddingBottom="12dp"
+        android:textColor="@color/text" android:textSize="48sp" android:textStyle="bold"
+        android:visibility="gone" />
 
     <TextView
         android:id="@+id/message"
