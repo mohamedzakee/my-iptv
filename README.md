@@ -10,9 +10,23 @@ https://raw.githubusercontent.com/mohamedzakee/my-iptv/main/tv.m3u
 
 Paste this link into VLC (Media → Open Network Stream), TiviMate or IPTV Smarters.
 
-## Channels (48 working)
+## Channels (43 working)
 
-_Last checked: 22 Nov 2026, 04:42 PM (Sri Lanka time). Updated automatically every day; dead streams are dropped and up to 2 working streams are kept per channel._
+_Last checked: 22 Nov 2026, 04:51 PM (Sri Lanka time). Updated automatically every day; dead streams are dropped and up to 2 working streams are kept per channel._
+
+### Kids (English) (11)
+
+- PBS Kids
+- Cartoon Network Asia
+- Cartoonito Asia
+- Nick Jr.
+- Disney Junior
+- Disney Channel
+- Peppa Pig
+- Super Simple Songs
+- Moonbug Kids
+- Mr Bean Animated
+- Tiny Pop
 
 ### Sri Lanka (3)
 
@@ -24,11 +38,10 @@ _Last checked: 22 Nov 2026, 04:42 PM (Sri Lanka time). Updated automatically eve
 
 - Imai TV
 
-### Tamil (17)
+### Tamil (16)
 
 - Star Vijay
 - Zee Tamil
-- Zee Thirai
 - Colors Tamil
 - Kalaignar TV
 - Raj TV
@@ -44,31 +57,13 @@ _Last checked: 22 Nov 2026, 04:42 PM (Sri Lanka time). Updated automatically eve
 - Zee Tamil News
 - Isai Aruvi
 
-### Cricket (10)
+### Cricket (5)
 
-- Star Sports 1
-- Star Sports 1 Hindi
-- Sony Sports Ten 1
-- Sony Sports Ten 2
 - Sony Sports Ten 3 Hindi
-- Sony Sports Ten 5
 - DD Sports
 - Willow
 - Willow Sports
 - Gazi TV
-
-### Kids (English) (10)
-
-- PBS Kids
-- Cartoon Network Asia
-- Cartoonito Asia
-- Disney Junior
-- Disney Channel
-- Peppa Pig
-- Super Simple Songs
-- Moonbug Kids
-- Mr Bean Animated
-- Tiny Pop
 
 ### Islamic (7)
 
