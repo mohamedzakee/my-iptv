@@ -20,8 +20,13 @@ CHANNELS = {
     "Cricket": ["StarSports1.in", "StarSports1Hindi.in", "SonySportsTen1.in", "SonySportsTen2.in",
                 "SonySportsTen3Hindi.in", "SonySportsTen5.in", "DDSports.in", "Willow.us", "WillowSports.us",
                 "PTVSports.pk", "TSports.bd", "GaziTV.bd", "TenSportsPakistan.pk"],
+    "Kids (English)": ["CBeebies.uk", "CBBC.uk", "PBSKids.us", "CartoonNetwork.us", "CartoonNetworkAsia.sg",
+                       "CartoonitoAsia.sg", "NickJr.us", "Nickelodeon.us", "DisneyJunior.us", "DisneyChannel.us",
+                       "Boomerang.us", "BabyTV.uk", "PeppaPig.us", "SuperSimpleSongs.us", "MoonbugKids.uk",
+                       "MrBeanAnimated.uk", "TinyPop.uk"],
+    "Islamic": ["AlQuranAlKareemTV.sa", "AlSunnahAlNabawiyahTV.sa", "MakkahTV.sa", "PeaceTVEnglish.ae",
+                "HudaTV.eg", "IslamChannel.uk", "IqraaQuran.sa", "MadaniChannelEnglish.pk"],
 }
-
 db = os.path.join(SRC, "database/data")
 names = {r["id"]: r["name"] for r in csv.DictReader(open(f"{db}/channels.csv", encoding="utf-8"))}
 logos = {}
@@ -65,7 +70,7 @@ with ThreadPoolExecutor(32) as ex:
 
 lines, report, count = ["#EXTM3U"], [], {}
 for (g, cid, e), good in zip(wanted, ok):
-    report.append(f"{'OK  ' if good else 'DEAD'} {g:17} {e['name']}  {e['url']}")
+    report.append(f"{'OK  ' if good else 'DEAD'} {g:18} {e['name']}  {e['url']}")
     if not good or count.get(cid, 0) >= MAX_PER_CHANNEL or "[Geo-blocked]" in e["name"]:
         continue
     count[cid] = count.get(cid, 0) + 1
