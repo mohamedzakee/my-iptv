@@ -148,3 +148,4 @@ DEAD Islamic            Islam Channel (576p) [Not 24/7]  https://live.islamchann
 OK   Islamic            Iqraa Quran (1080p)  https://playlist.fasttvcdn.com/pl/dlkqw1ftuvuuzkcb4pxdcg/Iqraafasttv2/playlist.m3u8
 DEAD Islamic            Madani Channel English (720p)  http://tvsen7.aynascope.net/MadaniTV/index.m3u8
 OK   Islamic            Madani Channel English (720p)  https://streaming.madanichannel.tv/static/streaming-playlists/hls/c6a600b0-82cb-454a-8953-2bb2bb372edc/master.m3u8
+DEAD Islamic            Eman Channel (576p)  https://ap02.iqplay.tv:8082/iqb8002/3m9n/playlist.m3u8

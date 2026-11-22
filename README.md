@@ -12,7 +12,7 @@ Paste this link into VLC (Media → Open Network Stream), TiviMate or IPTV Smart
 
 ## Channels (48 working)
 
-_Last checked: 22 Nov 2026, 04:22 PM (Sri Lanka time). Updated automatically every day; dead streams are dropped and up to 2 working streams are kept per channel._
+_Last checked: 22 Nov 2026, 04:42 PM (Sri Lanka time). Updated automatically every day; dead streams are dropped and up to 2 working streams are kept per channel._
 
 ### Sri Lanka (3)
 
