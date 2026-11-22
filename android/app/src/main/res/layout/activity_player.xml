@@ -18,16 +18,16 @@
     <LinearLayout
         android:id="@+id/info"
         android:layout_width="wrap_content" android:layout_height="wrap_content"
-        android:layout_gravity="bottom|center_horizontal" android:layout_marginBottom="48dp"
+        android:layout_gravity="bottom|center_horizontal" android:layout_marginBottom="28dp"
         android:background="@drawable/glass_panel" android:gravity="center_vertical"
-        android:minWidth="520dp" android:orientation="horizontal"
-        android:paddingStart="24dp" android:paddingTop="18dp" android:paddingEnd="32dp"
-        android:paddingBottom="18dp">
+        android:maxWidth="760dp" android:minWidth="460dp" android:orientation="horizontal"
+        android:paddingStart="18dp" android:paddingTop="14dp" android:paddingEnd="24dp"
+        android:paddingBottom="14dp">
 
         <FrameLayout
-            android:layout_width="120dp" android:layout_height="68dp"
-            android:layout_marginEnd="22dp" android:background="@drawable/glass_card"
-            android:padding="12dp">
+            android:layout_width="104dp" android:layout_height="58dp"
+            android:layout_marginEnd="18dp" android:background="@drawable/glass_card"
+            android:padding="10dp">
             <ImageView
                 android:id="@+id/infoLogo"
                 android:layout_width="match_parent" android:layout_height="match_parent"
@@ -58,46 +58,46 @@
             <TextView
                 android:id="@+id/infoName"
                 android:layout_width="wrap_content" android:layout_height="wrap_content"
-                android:layout_marginTop="4dp" android:textColor="@color/text"
-                android:textSize="28sp" android:textStyle="bold" />
+                android:layout_marginTop="2dp" android:ellipsize="end" android:maxLines="1"
+                android:textColor="@color/text" android:textSize="22sp" android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/infoNow"
                 android:layout_width="wrap_content" android:layout_height="wrap_content"
-                android:layout_marginTop="4dp" android:maxWidth="620dp" android:ellipsize="end"
-                android:maxLines="1" android:textColor="@color/text_dim" android:textSize="15sp" />
+                android:layout_marginTop="4dp" android:maxWidth="560dp" android:ellipsize="end"
+                android:maxLines="1" android:textColor="@color/text_dim" android:textSize="13sp" />
 
             <ProgressBar
                 android:id="@+id/infoProgress"
                 style="@android:style/Widget.ProgressBar.Horizontal"
-                android:layout_width="320dp" android:layout_height="4dp"
+                android:layout_width="260dp" android:layout_height="3dp"
                 android:layout_marginTop="6dp" android:max="100"
                 android:progressDrawable="@drawable/progress_glass" />
 
             <TextView
                 android:id="@+id/infoNext"
                 android:layout_width="wrap_content" android:layout_height="wrap_content"
-                android:layout_marginTop="6dp" android:maxWidth="620dp" android:ellipsize="end"
-                android:maxLines="1" android:textColor="@color/text_faint" android:textSize="14sp" />
+                android:layout_marginTop="6dp" android:maxWidth="560dp" android:ellipsize="end"
+                android:maxLines="1" android:textColor="@color/text_faint" android:textSize="12sp" />
 
             <TextView
                 android:layout_width="wrap_content" android:layout_height="wrap_content"
                 android:layout_marginTop="6dp" android:text="@string/player_hint"
-                android:textColor="@color/text_faint" android:textSize="12sp" />
+                android:textColor="@color/text_faint" android:textSize="11sp" />
         </LinearLayout>
     </LinearLayout>
 
     <!-- Channel list panel (◀) -->
     <LinearLayout
         android:id="@+id/panel"
-        android:layout_width="440dp" android:layout_height="match_parent"
-        android:layout_margin="24dp" android:background="@drawable/glass_panel"
+        android:layout_width="360dp" android:layout_height="match_parent"
+        android:layout_margin="20dp" android:background="@drawable/glass_panel"
         android:orientation="vertical" android:padding="18dp" android:visibility="gone">
         <TextView
             android:layout_width="wrap_content" android:layout_height="wrap_content"
             android:layout_marginStart="8dp" android:layout_marginBottom="12dp"
             android:text="@string/channels" android:textColor="@color/text"
-            android:textSize="22sp" android:textStyle="bold" />
+            android:textSize="18sp" android:textStyle="bold" />
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/panelList"
             android:layout_width="match_parent" android:layout_height="match_parent"
@@ -110,13 +110,13 @@
         android:layout_gravity="top|end" android:layout_margin="48dp"
         android:background="@drawable/glass_panel" android:minWidth="120dp" android:gravity="center"
         android:paddingStart="28dp" android:paddingTop="12dp" android:paddingEnd="28dp" android:paddingBottom="12dp"
-        android:textColor="@color/text" android:textSize="48sp" android:textStyle="bold"
+        android:textColor="@color/text" android:textSize="36sp" android:textStyle="bold"
         android:visibility="gone" />
 
     <TextView
         android:id="@+id/message"
         android:layout_width="wrap_content" android:layout_height="wrap_content"
         android:layout_gravity="center" android:background="@drawable/glass_panel"
-        android:gravity="center" android:maxWidth="640dp" android:padding="28dp"
-        android:textColor="@color/text" android:textSize="20sp" android:visibility="gone" />
+        android:gravity="center" android:maxWidth="560dp" android:padding="22dp"
+        android:textColor="@color/text" android:textSize="16sp" android:visibility="gone" />
 </FrameLayout>

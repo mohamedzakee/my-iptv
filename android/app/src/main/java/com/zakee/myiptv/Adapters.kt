@@ -105,12 +105,12 @@ class ChannelAdapter(
         holder.card.setOnClickListener { onClick(ch) }
         holder.card.setOnFocusChangeListener { _, has ->
             val item = holder.itemView
-            val s = if (has) 1.12f else 1f
-            item.animate().scaleX(s).scaleY(s).translationY(if (has) -6f else 0f)
+            val s = if (has) 1.08f else 1f
+            item.animate().scaleX(s).scaleY(s)
                 .setInterpolator(DecelerateInterpolator()).setDuration(180).start()
             item.translationZ = if (has) 24f else 0f
             holder.card.elevation = if (has) 18f else 0f
-            holder.name.animate().alpha(if (has) 1f else 0.6f).setDuration(180).start()
+            holder.name.animate().alpha(if (has) 1f else 0.7f).setDuration(180).start()
             if (has) onFocus(ch)
         }
     }
