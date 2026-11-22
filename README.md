@@ -10,9 +10,9 @@ https://raw.githubusercontent.com/mohamedzakee/my-iptv/main/tv.m3u
 
 Paste this link into VLC (Media → Open Network Stream), TiviMate or IPTV Smarters.
 
-## Channels (43 working)
+## Channels (41 working)
 
-_Last checked: 22 Nov 2026, 04:51 PM (Sri Lanka time). Updated automatically every day; dead streams are dropped and up to 2 working streams are kept per channel._
+_Last checked: 22 Nov 2026, 09:50 PM (Sri Lanka time). Updated automatically every day; dead streams are dropped and up to 2 working streams are kept per channel._
 
 ### Kids (English) (11)
 
@@ -34,9 +34,9 @@ _Last checked: 22 Nov 2026, 04:51 PM (Sri Lanka time). Updated automatically eve
 - Hiru TV
 - Siyatha TV
 
-### Sri Lankan Tamil (1)
+### Sri Lankan Tamil (0)
 
-- Imai TV
+_No working streams right now._
 
 ### Tamil (16)
 
@@ -57,11 +57,10 @@ _Last checked: 22 Nov 2026, 04:51 PM (Sri Lanka time). Updated automatically eve
 - Zee Tamil News
 - Isai Aruvi
 
-### Cricket (5)
+### Cricket (4)
 
 - Sony Sports Ten 3 Hindi
 - DD Sports
-- Willow
 - Willow Sports
 - Gazi TV
 

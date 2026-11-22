@@ -59,7 +59,7 @@ DEAD Sri Lanka          Swarnavahini (480p)  https://teledrama.ebc.lk/TTT/proxy.
 OK   Sri Lanka          Hiru TV (360p) [Not 24/7]  https://tv.hiruhost.com:1936/8012/8012/playlist.m3u8
 OK   Sri Lanka          Siyatha TV (576p)  https://rtmp01.voaplus.com/hls/6x6ik312qk4grfxocfcv.m3u8
 DEAD Sri Lankan Tamil   IBC Tamil (1080p)  https://ibc.massstream.net/IBC/index.m3u8
-OK   Sri Lankan Tamil   Imai TV (576i)  https://jalworldiptv.vercel.app/iptv/imaitv/playlist.m3u8
+DEAD Sri Lankan Tamil   Imai TV (576i)  https://jalworldiptv.vercel.app/iptv/imaitv/playlist.m3u8
 DEAD Sri Lankan Tamil   Imai TV (576i)  https://live20.bozztv.com/akamaissh101/ssh101/imaitv/playlist.m3u8
 DEAD Sri Lankan Tamil   Star Tamil Television (360p)  https://edge4-moblive.yuppcdn.net/trans1sd/smil:strtml19.smil/playlist.m3u8?dvr=
 OK   Tamil              Star Vijay (396p)  https://da86m1sqpm3o0.cloudfront.net/28072023/smil:starvijayuk.smil/playlist.m3u8
@@ -119,7 +119,7 @@ OK   Cricket            DD Sports SD (1080p)  https://d3qs3d2rkhfqrt.cloudfront.
 OK   Cricket            DD Sports (720p)  https://cdn.pishow.tv/ott/live/13/master.m3u8
 DEAD Cricket            Willow (720p)  http://tvsen5.aynascope.net/willowhd/index.m3u8
 DEAD Cricket            Willow (720p)  http://tvsen7.aynascope.net/rEBp38Ax/index.m3u8
-OK   Cricket            Willow (720p)  https://tvsen5.aynaott.com/willowhd/index.m3u8
+DEAD Cricket            Willow (720p)  https://tvsen5.aynaott.com/willowhd/index.m3u8
 DEAD Cricket            Willow (720p) [Geo-blocked]  https://tvsen7.aynaott.com/rEBp38Ax/index.m3u8
 OK   Cricket            Willow Sports (720p)  https://jmp2.uk/plu-6972546cc62833833a187f50.m3u8
 OK   Cricket            Willow Sports (1080p)  https://d36r8jifhgsk5j.cloudfront.net/Willow_TV1080p.m3u8
