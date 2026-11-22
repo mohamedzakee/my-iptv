@@ -27,6 +27,9 @@ CHANNELS = {
     "Islamic": ["AlQuranAlKareemTV.sa", "AlSunnahAlNabawiyahTV.sa", "MakkahTV.sa", "PeaceTVEnglish.ae",
                 "HudaTV.eg", "IslamChannel.uk", "IqraaQuran.sa", "MadaniChannelEnglish.pk"],
 }
+# drop foreign-language versions of the same channel
+SKIP = re.compile(r"Latin America|Spain|Italy|Turkiye|Thailand|Espa|Arabia|Anim\u00e9", re.I)
+
 db = os.path.join(SRC, "database/data")
 names = {r["id"]: r["name"] for r in csv.DictReader(open(f"{db}/channels.csv", encoding="utf-8"))}
 logos = {}
@@ -71,7 +74,7 @@ with ThreadPoolExecutor(32) as ex:
 lines, report, count = ["#EXTM3U"], [], {}
 for (g, cid, e), good in zip(wanted, ok):
     report.append(f"{'OK  ' if good else 'DEAD'} {g:18} {e['name']}  {e['url']}")
-    if not good or count.get(cid, 0) >= MAX_PER_CHANNEL or "[Geo-blocked]" in e["name"]:
+    if not good or count.get(cid, 0) >= MAX_PER_CHANNEL or "Geo-blocked" in e["name"] or SKIP.search(e["name"]):
         continue
     count[cid] = count.get(cid, 0) + 1
     name = re.sub(r"\s*\[.*?\]", "", e["name"]).strip()
