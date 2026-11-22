@@ -10,9 +10,13 @@ https://raw.githubusercontent.com/mohamedzakee/my-iptv/main/tv.m3u
 
 Paste this link into VLC (Media → Open Network Stream), TiviMate or IPTV Smarters.
 
+## Android TV app
+
+Download: [my-iptv.apk](https://github.com/mohamedzakee/my-iptv/releases/download/app/my-iptv.apk) (built automatically from the `android/` folder). Install it on the TV with the Downloader app.
+
 ## Channels (41 working)
 
-_Last checked: 22 Nov 2026, 09:50 PM (Sri Lanka time). Updated automatically every day; dead streams are dropped and up to 2 working streams are kept per channel._
+_Last checked: 22 Nov 2026, 09:52 PM (Sri Lanka time). Updated automatically every day; dead streams are dropped and up to 2 working streams are kept per channel._
 
 ### Kids (English) (11)
 
@@ -61,8 +65,8 @@ _No working streams right now._
 
 - Sony Sports Ten 3 Hindi
 - DD Sports
+- Willow
 - Willow Sports
-- Gazi TV
 
 ### Islamic (7)
 
