@@ -1,8 +1,10 @@
 <resources>
-    <string name="app_name">My IPTV</string>
+    <string name="app_name">ZED.TV</string>
     <string name="playlist_url">https://raw.githubusercontent.com/mohamedzakee/my-iptv/main/tv.m3u</string>
     <string name="loading">Loading channels…</string>
     <string name="load_failed">Couldn\'t load the channel list. Check the internet connection.</string>
-    <string name="not_available">This channel isn\'t available right now. Press ▲ / ▼ for another channel.</string>
+    <string name="not_available">This channel isn\'t available right now.\nPress ▲ / ▼ for another channel.</string>
     <string name="trying_backup">Trying backup stream…</string>
+    <string name="press_ok">Press OK to watch</string>
+    <string name="live">LIVE</string>
 </resources>

@@ -1,47 +1,79 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent" android:layout_height="match_parent"
-    android:background="@color/bg" android:orientation="horizontal">
+    android:clipChildren="false">
+
+    <!-- Ambient backdrop: the focused channel's artwork, heavily blurred -->
+    <ImageView
+        android:id="@+id/ambient"
+        android:layout_width="match_parent" android:layout_height="match_parent"
+        android:alpha="0.45" android:contentDescription="@null" android:scaleType="centerCrop" />
+
+    <View
+        android:layout_width="match_parent" android:layout_height="match_parent"
+        android:background="@drawable/scrim" />
 
     <LinearLayout
-        android:layout_width="260dp" android:layout_height="match_parent"
-        android:background="@color/panel" android:orientation="vertical"
-        android:paddingStart="16dp" android:paddingTop="24dp" android:paddingEnd="16dp">
+        android:layout_width="match_parent" android:layout_height="match_parent"
+        android:clipChildren="false" android:orientation="vertical">
 
-        <TextView
-            android:layout_width="wrap_content" android:layout_height="wrap_content"
-            android:layout_marginStart="12dp" android:layout_marginBottom="20dp"
-            android:text="@string/app_name" android:textColor="@color/accent"
-            android:textSize="26sp" android:textStyle="bold" />
-
-        <androidx.recyclerview.widget.RecyclerView
-            android:id="@+id/groups"
-            android:layout_width="match_parent" android:layout_height="match_parent" />
-    </LinearLayout>
-
-    <FrameLayout
-        android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
-
+        <!-- Top bar -->
         <LinearLayout
-            android:layout_width="match_parent" android:layout_height="match_parent"
-            android:orientation="vertical" android:paddingStart="24dp" android:paddingTop="24dp"
-            android:paddingEnd="24dp">
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:gravity="center_vertical" android:orientation="horizontal"
+            android:paddingStart="64dp" android:paddingTop="32dp" android:paddingEnd="64dp">
 
             <TextView
-                android:id="@+id/groupTitle"
                 android:layout_width="wrap_content" android:layout_height="wrap_content"
-                android:layout_marginBottom="12dp" android:textSize="22sp" android:textStyle="bold" />
+                android:letterSpacing="0.04" android:text="@string/app_name"
+                android:textColor="@color/text" android:textSize="24sp" android:textStyle="bold" />
 
-            <androidx.recyclerview.widget.RecyclerView
-                android:id="@+id/channels"
-                android:layout_width="match_parent" android:layout_height="match_parent"
-                android:clipToPadding="false" android:paddingBottom="24dp" />
+            <View android:layout_width="0dp" android:layout_height="1dp" android:layout_weight="1" />
+
+            <TextClock
+                android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:background="@drawable/glass_panel" android:format12Hour="h:mm a"
+                android:format24Hour="HH:mm" android:paddingStart="20dp" android:paddingTop="8dp"
+                android:paddingEnd="20dp" android:paddingBottom="8dp"
+                android:textColor="@color/text" android:textSize="18sp" />
         </LinearLayout>
 
-        <TextView
-            android:id="@+id/status"
-            android:layout_width="wrap_content" android:layout_height="wrap_content"
-            android:layout_gravity="center" android:gravity="center" android:padding="24dp"
-            android:text="@string/loading" android:textColor="@color/text_dim" android:textSize="18sp" />
-    </FrameLayout>
-</LinearLayout>
+        <!-- Hero: details of the focused channel -->
+        <LinearLayout
+            android:layout_width="match_parent" android:layout_height="170dp"
+            android:gravity="bottom" android:orientation="vertical"
+            android:paddingStart="64dp" android:paddingEnd="64dp" android:paddingBottom="12dp">
+
+            <TextView
+                android:id="@+id/heroSub"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:letterSpacing="0.12" android:textAllCaps="true"
+                android:textColor="@color/text_dim" android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/heroName"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:layout_marginTop="4dp" android:ellipsize="end" android:maxLines="1"
+                android:textColor="@color/text" android:textSize="46sp" android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/heroHint"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:layout_marginTop="2dp" android:text="@string/press_ok"
+                android:textColor="@color/text_faint" android:textSize="15sp" />
+        </LinearLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rows"
+            android:layout_width="match_parent" android:layout_height="0dp"
+            android:layout_weight="1" android:clipChildren="false" android:clipToPadding="false"
+            android:paddingBottom="48dp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/status"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:layout_gravity="center" android:background="@drawable/glass_panel"
+        android:gravity="center" android:padding="28dp" android:text="@string/loading"
+        android:textColor="@color/text" android:textSize="18sp" />
+</FrameLayout>

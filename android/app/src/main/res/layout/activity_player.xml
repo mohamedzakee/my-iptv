@@ -7,39 +7,71 @@
     <androidx.media3.ui.PlayerView
         android:id="@+id/playerView"
         android:layout_width="match_parent" android:layout_height="match_parent"
-        android:focusable="false" app:use_controller="false" app:show_buffering="always" />
+        android:focusable="false" app:show_buffering="always" app:use_controller="false" />
 
+    <View
+        android:id="@+id/scrim"
+        android:layout_width="match_parent" android:layout_height="260dp"
+        android:layout_gravity="bottom" android:background="@drawable/player_scrim" />
+
+    <!-- Glass info capsule -->
     <LinearLayout
         android:id="@+id/info"
         android:layout_width="wrap_content" android:layout_height="wrap_content"
-        android:layout_gravity="bottom|start" android:layout_margin="32dp"
-        android:background="@color/overlay" android:gravity="center_vertical"
-        android:orientation="horizontal" android:padding="16dp">
+        android:layout_gravity="bottom|center_horizontal" android:layout_marginBottom="48dp"
+        android:background="@drawable/glass_panel" android:gravity="center_vertical"
+        android:minWidth="520dp" android:orientation="horizontal"
+        android:paddingStart="24dp" android:paddingTop="18dp" android:paddingEnd="32dp"
+        android:paddingBottom="18dp">
 
-        <ImageView
-            android:id="@+id/infoLogo"
-            android:layout_width="96dp" android:layout_height="54dp"
-            android:layout_marginEnd="16dp" android:contentDescription="@null"
-            android:scaleType="fitCenter" />
+        <FrameLayout
+            android:layout_width="120dp" android:layout_height="68dp"
+            android:layout_marginEnd="22dp" android:background="@drawable/glass_card"
+            android:padding="12dp">
+            <ImageView
+                android:id="@+id/infoLogo"
+                android:layout_width="match_parent" android:layout_height="match_parent"
+                android:contentDescription="@null" android:scaleType="fitCenter" />
+        </FrameLayout>
 
         <LinearLayout
             android:layout_width="wrap_content" android:layout_height="wrap_content"
             android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:gravity="center_vertical" android:orientation="horizontal">
+                <View
+                    android:layout_width="10dp" android:layout_height="10dp"
+                    android:layout_marginEnd="8dp" android:background="@drawable/live_dot" />
+                <TextView
+                    android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:letterSpacing="0.12" android:text="@string/live"
+                    android:textColor="@color/text" android:textSize="13sp" android:textStyle="bold" />
+                <TextView
+                    android:id="@+id/infoSub"
+                    android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:layout_marginStart="12dp" android:letterSpacing="0.08"
+                    android:textAllCaps="true" android:textColor="@color/text_dim" android:textSize="13sp" />
+            </LinearLayout>
+
             <TextView
                 android:id="@+id/infoName"
                 android:layout_width="wrap_content" android:layout_height="wrap_content"
-                android:textColor="@color/text" android:textSize="22sp" android:textStyle="bold" />
+                android:layout_marginTop="4dp" android:textColor="@color/text"
+                android:textSize="28sp" android:textStyle="bold" />
+
             <TextView
-                android:id="@+id/infoSub"
                 android:layout_width="wrap_content" android:layout_height="wrap_content"
-                android:textColor="@color/text_dim" android:textSize="15sp" />
+                android:layout_marginTop="2dp" android:text="▲ ▼  change channel     OK  show info"
+                android:textColor="@color/text_faint" android:textSize="13sp" />
         </LinearLayout>
     </LinearLayout>
 
     <TextView
         android:id="@+id/message"
         android:layout_width="wrap_content" android:layout_height="wrap_content"
-        android:layout_gravity="center" android:background="@color/overlay"
-        android:gravity="center" android:maxWidth="600dp" android:padding="20dp"
-        android:textColor="@color/text" android:textSize="18sp" android:visibility="gone" />
+        android:layout_gravity="center" android:background="@drawable/glass_panel"
+        android:gravity="center" android:maxWidth="640dp" android:padding="28dp"
+        android:textColor="@color/text" android:textSize="20sp" android:visibility="gone" />
 </FrameLayout>

@@ -31,6 +31,7 @@ class PlayerActivity : AppCompatActivity() {
     private lateinit var playerView: PlayerView
     private lateinit var info: View
     private lateinit var message: TextView
+    private lateinit var scrim: View
     private var player: ExoPlayer? = null
 
     private val channels get() = PlaylistRepo.channels
@@ -39,7 +40,10 @@ class PlayerActivity : AppCompatActivity() {
     private var forceHls = false
 
     private val handler = Handler(Looper.getMainLooper())
-    private val hideInfo = Runnable { info.visibility = View.GONE }
+    private val hideInfo = Runnable {
+        info.animate().alpha(0f).setDuration(300).withEndAction { info.visibility = View.GONE }.start()
+        scrim.animate().alpha(0f).setDuration(300).start()
+    }
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -48,6 +52,7 @@ class PlayerActivity : AppCompatActivity() {
         playerView = findViewById(R.id.playerView)
         info = findViewById(R.id.info)
         message = findViewById(R.id.message)
+        scrim = findViewById(R.id.scrim)
         index = intent.getIntExtra(EXTRA_INDEX, 0).coerceIn(0, channels.size - 1)
     }
 
@@ -114,10 +119,12 @@ class PlayerActivity : AppCompatActivity() {
     private fun showInfo() {
         val ch = channels[index]
         findViewById<TextView>(R.id.infoName).text = ch.name
-        findViewById<TextView>(R.id.infoSub).text = "${ch.group}   ·   ▲ ▼ change channel"
+        findViewById<TextView>(R.id.infoSub).text = ch.group
         findViewById<ImageView>(R.id.infoLogo).load(ch.logo) { error(R.drawable.ic_tv) }
         message.visibility = View.GONE
         info.visibility = View.VISIBLE
+        info.animate().cancel(); info.alpha = 1f
+        scrim.animate().cancel(); scrim.alpha = 1f
         handler.removeCallbacks(hideInfo)
         handler.postDelayed(hideInfo, 4000)
     }

@@ -3,45 +3,56 @@ package com.zakee.myiptv
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.view.animation.DecelerateInterpolator
 import android.widget.ImageView
 import android.widget.TextView
+import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import coil.load
 
-class GroupAdapter(
-    private val groups: List<String>,
-    private val onFocus: (Int) -> Unit,
-) : RecyclerView.Adapter<GroupAdapter.VH>() {
-    var selected = 0
-        set(value) { val old = field; field = value; notifyItemChanged(old); notifyItemChanged(value) }
+data class Row(val title: String, val channels: List<Channel>)
 
-    class VH(val text: TextView) : RecyclerView.ViewHolder(text)
+/** Vertical list of categories; each one is a horizontal row of glass cards (Apple TV style). */
+class RowAdapter(
+    private val rows: List<Row>,
+    private val onFocus: (Channel) -> Unit,
+    private val onClick: (Channel) -> Unit,
+) : RecyclerView.Adapter<RowAdapter.VH>() {
+    private val pool = RecyclerView.RecycledViewPool()
 
-    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int) =
-        VH(LayoutInflater.from(parent.context).inflate(R.layout.item_group, parent, false) as TextView)
+    class VH(view: View) : RecyclerView.ViewHolder(view) {
+        val title: TextView = view.findViewById(R.id.rowTitle)
+        val list: RecyclerView = view.findViewById(R.id.rowList)
+    }
 
-    override fun getItemCount() = groups.size
+    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): VH {
+        val vh = VH(LayoutInflater.from(parent.context).inflate(R.layout.item_row, parent, false))
+        vh.list.layoutManager = LinearLayoutManager(parent.context, RecyclerView.HORIZONTAL, false)
+        vh.list.setRecycledViewPool(pool)
+        vh.list.itemAnimator = null
+        return vh
+    }
+
+    override fun getItemCount() = rows.size
 
     override fun onBindViewHolder(holder: VH, position: Int) {
-        holder.text.text = groups[position]
-        holder.text.isSelected = position == selected
-        val pick = View.OnFocusChangeListener { _, has -> if (has) onFocus(holder.bindingAdapterPosition) }
-        holder.text.onFocusChangeListener = pick
-        holder.text.setOnClickListener { onFocus(holder.bindingAdapterPosition) }
+        val row = rows[position]
+        holder.title.text = row.title
+        holder.list.adapter = ChannelAdapter(row.channels, onFocus, onClick)
     }
 }
 
 class ChannelAdapter(
-    private var items: List<Channel>,
+    private val items: List<Channel>,
+    private val onFocus: (Channel) -> Unit,
     private val onClick: (Channel) -> Unit,
 ) : RecyclerView.Adapter<ChannelAdapter.VH>() {
 
     class VH(view: View) : RecyclerView.ViewHolder(view) {
+        val card: View = view.findViewById(R.id.card)
         val logo: ImageView = view.findViewById(R.id.logo)
         val name: TextView = view.findViewById(R.id.name)
     }
-
-    fun submit(list: List<Channel>) { items = list; notifyDataSetChanged() }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int) =
         VH(LayoutInflater.from(parent.context).inflate(R.layout.item_channel, parent, false))
@@ -56,11 +67,16 @@ class ChannelAdapter(
             placeholder(R.drawable.ic_tv)
             error(R.drawable.ic_tv)
         }
-        holder.itemView.setOnClickListener { onClick(ch) }
-        holder.itemView.setOnFocusChangeListener { v, has ->
-            val s = if (has) 1.08f else 1f
-            v.animate().scaleX(s).scaleY(s).setDuration(120).start()
-            v.elevation = if (has) 12f else 0f
+        holder.card.setOnClickListener { onClick(ch) }
+        holder.card.setOnFocusChangeListener { _, has ->
+            val item = holder.itemView
+            val s = if (has) 1.12f else 1f
+            item.animate().scaleX(s).scaleY(s).translationY(if (has) -6f else 0f)
+                .setInterpolator(DecelerateInterpolator()).setDuration(180).start()
+            item.translationZ = if (has) 24f else 0f
+            holder.card.elevation = if (has) 18f else 0f
+            holder.name.animate().alpha(if (has) 1f else 0.6f).setDuration(180).start()
+            if (has) onFocus(ch)
         }
     }
 }
