@@ -14,15 +14,16 @@ Paste this link into VLC (Media → Open Network Stream), TiviMate or IPTV Smart
 
 Download: [my-iptv.apk](https://github.com/mohamedzakee/my-iptv/releases/download/app/my-iptv.apk) (built automatically from the `android/` folder). Install it on the TV with the Downloader app.
 
-## Channels (41 working)
+## Channels (43 working)
 
-_Last checked: 22 Nov 2026, 10:29 PM (Sri Lanka time). Updated automatically every day; dead streams are dropped and up to 2 working streams are kept per channel._
+_Last checked: 23 Nov 2026, 07:16 AM (Sri Lanka time). Updated automatically every day; dead streams are dropped and up to 2 working streams are kept per channel._
 
-### Kids (English) (10)
+### Kids (English) (11)
 
 - PBS Kids
 - Cartoon Network Asia
 - Cartoonito Asia
+- Nick Jr.
 - Disney Junior
 - Disney Channel
 - Peppa Pig
@@ -37,9 +38,9 @@ _Last checked: 22 Nov 2026, 10:29 PM (Sri Lanka time). Updated automatically eve
 - Hiru TV
 - Siyatha TV
 
-### Sri Lankan Tamil (0)
+### Sri Lankan Tamil (1)
 
-_No working streams right now._
+- Imai TV
 
 ### Tamil (16)
 
