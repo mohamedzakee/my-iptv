@@ -154,6 +154,53 @@ class MainActivity : AppCompatActivity() {
         startActivity(Intent(this, PlayerActivity::class.java).putExtra(PlayerActivity.EXTRA_ID, ch.id))
     }
 
+    /**
+     * Predictable remote navigation (Apple TV style): ▲/▼ go to the card directly above/below,
+     * and ◀/▶ stop at the ends of a row instead of jumping to another row.
+     */
+    override fun dispatchKeyEvent(event: KeyEvent): Boolean {
+        if (event.action == KeyEvent.ACTION_DOWN && rows.hasFocus()) {
+            val focused = currentFocus
+            val rowVh = focused?.let { rows.findContainingViewHolder(it) } as? RowAdapter.VH
+            if (focused != null && rowVh != null) {
+                val inner = rowVh.list
+                val cardPos = inner.findContainingViewHolder(focused)?.bindingAdapterPosition ?: -1
+                when (event.keyCode) {
+                    KeyEvent.KEYCODE_DPAD_UP, KeyEvent.KEYCODE_DPAD_DOWN -> {
+                        val target = rowVh.bindingAdapterPosition + if (event.keyCode == KeyEvent.KEYCODE_DPAD_DOWN) 1 else -1
+                        if (target in 0 until (rows.adapter?.itemCount ?: 0)) moveToRow(target, centerX(focused))
+                        return true
+                    }
+                    KeyEvent.KEYCODE_DPAD_LEFT -> if (cardPos == 0) return true
+                    KeyEvent.KEYCODE_DPAD_RIGHT -> if (cardPos == (inner.adapter?.itemCount ?: 0) - 1) return true
+                }
+            }
+        }
+        return super.dispatchKeyEvent(event)
+    }
+
+    private fun centerX(v: View): Int {
+        val loc = IntArray(2); v.getLocationOnScreen(loc); return loc[0] + v.width / 2
+    }
+
+    /** Focus the card in row [target] that sits closest to screen position [x]. */
+    private fun moveToRow(target: Int, x: Int, retry: Boolean = true) {
+        val vh = rows.findViewHolderForAdapterPosition(target) as? RowAdapter.VH
+        if (vh == null) {
+            if (retry) { rows.scrollToPosition(target); rows.post { moveToRow(target, x, false) } }
+            return
+        }
+        val list = vh.list
+        var best: View? = null
+        var bestDist = Int.MAX_VALUE
+        for (i in 0 until list.childCount) {
+            val card = (list.getChildViewHolder(list.getChildAt(i)) as? ChannelAdapter.VH)?.card ?: continue
+            val d = kotlin.math.abs(centerX(card) - x)
+            if (d < bestDist) { bestDist = d; best = card }
+        }
+        best?.requestFocus()
+    }
+
     override fun onKeyDown(keyCode: Int, event: KeyEvent?): Boolean {
         if (numbers.handle(keyCode)) return true
         // Info screen lives on the remote's Menu / Info button instead of an on-screen button.
