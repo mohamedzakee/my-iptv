@@ -56,7 +56,18 @@ class MainActivity : AppCompatActivity() {
         updateBtn = findViewById(R.id.updateBtn)
         numbers = NumberEntry(findViewById(R.id.numberEntry)) { n -> Repo.byNumber(n)?.let { openPlayer(it) } }
 
-        rows.layoutManager = LinearLayoutManager(this)
+        // Apple TV style: the focused row slides up to a fixed spot near the top, so the
+        // last row always ends up fully on screen with space below it.
+        rows.layoutManager = object : LinearLayoutManager(this) {
+            override fun requestChildRectangleOnScreen(
+                parent: RecyclerView, child: View, rect: android.graphics.Rect, immediate: Boolean, focusedChildVisible: Boolean,
+            ): Boolean {
+                val dy = getDecoratedTop(child) - parent.paddingTop
+                if (dy == 0) return false
+                if (immediate) parent.scrollBy(0, dy) else parent.smoothScrollBy(0, dy)
+                return true
+            }
+        }
         rows.itemAnimator = null
         rows.setItemViewCacheSize(8)
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.S && !App.isLowRam(this)) {
