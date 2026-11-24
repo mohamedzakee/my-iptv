@@ -14,18 +14,18 @@ Paste this link into VLC (Media → Open Network Stream), TiviMate or IPTV Smart
 
 Download: [my-iptv.apk](https://github.com/mohamedzakee/my-iptv/releases/download/app/my-iptv.apk) (built automatically from the `android/` folder). Install it on the TV with the Downloader app.
 
-## Channels (50 working)
+## Channels (49 working)
 
-_Last checked: 24 Nov 2026, 06:56 PM (Sri Lanka time). Updated automatically every day; dead streams are dropped and up to 2 working streams are kept per channel._
+_Last checked: 24 Nov 2026, 06:59 PM (Sri Lanka time). Updated automatically every day; dead streams are dropped and up to 2 working streams are kept per channel._
 
 ### Kids (English) (12)
 
-- PBS Kids
 - Cartoon Network Asia
-- Cartoonito Asia
-- Nick Jr.
-- Disney Junior
 - Disney Channel
+- Disney Junior
+- Nick Jr.
+- Cartoonito Asia
+- PBS Kids
 - Boomerang
 - Peppa Pig
 - Super Simple Songs
@@ -39,59 +39,58 @@ _Last checked: 24 Nov 2026, 06:56 PM (Sri Lanka time). Updated automatically eve
 
 ### Sri Lanka (3)
 
-- Rupavahini
 - Hiru TV
+- Rupavahini
 - Siyatha TV
 
 ### Sri Lankan Tamil (0)
 
 _No working streams right now._
 
-### Tamil (15)
+### Tamil (14)
 
 - Star Vijay
 - Zee Tamil
 - Colors Tamil
+- Polimer TV
 - Kalaignar TV
 - Raj TV
-- Polimer TV
 - DD Tamil
-- Puthiya Thalaimurai
-- Thanthi TV
-- News18 Tamil Nadu
-- News 7 Tamil
 - Polimer News
+- Thanthi TV
+- Puthiya Thalaimurai
+- News 7 Tamil
 - Sathiyam TV
 - Kalaignar Seithigal
 - Isai Aruvi
 
 ### Malayalam (7)
 
-- Asianet Movies
-- Kairali We
 - Asianet
 - Mazhavil Manorama
-- Amrita TV
+- Asianet Movies
 - Kairali TV
+- Kairali We
+- Amrita TV
 - DD Malayalam
 
 ### Cricket (5)
 
 - Sony Sports Ten 3 Hindi
-- DD Sports
 - Willow
 - Willow Sports
 - Gazi TV
+- DD Sports
 
 ### Islamic (7)
 
 - Al Quran Al Kareem TV
 - Al Sunnah Al Nabawiyah TV
-- Makkah TV
 - Peace TV English
 - Huda TV
 - Iqraa Quran
 - Madani Channel English
+- Makkah TV
 
 ## Notes
 

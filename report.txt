@@ -1,45 +1,40 @@
-DEAD Kids (English)     CBeebies HD  https://cdn.stmify.com/bbc/stream/CBEEBIES/hevc_iptv_mse_v0.mpd
-DEAD Kids (English)     CBeebies HD (720p) [Geo-blocked]  https://vs-cmaf-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:cbeebies_hd/iptv_hd_abr_v1.mpd
-DEAD Kids (English)     CBeebies HD (720p) [Geo-blocked]  https://vs-cmaf-pushb-uk.live.fastly.md.bbci.co.uk/x=4/i=urn:bbc:pips:service:cbeebies_hd/iptv_hd_abr_v1.mpd
-DEAD Kids (English)     CBeebies HD (720p) [Geo-blocked]  https://vs-cmaf-pushb-uk.live.fastly.md.bbci.co.uk/x=4/i=urn:bbc:pips:service:cbeebies_hd/pc_hd_abr_v2.mpd
-DEAD Kids (English)     CBeebies HD (720p) [Geo-blocked]  https://vs-hls-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:cbeebies_hd/mobile_wifi_main_hd_abr_v2.m3u8
-DEAD Kids (English)     CBeebies HD (1080p) (HEVC) [Geo-blocked]  https://vs-cmaf-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:cbeebies_hd/hevc_iptv_mse_v0.mpd
-DEAD Kids (English)     CBBC HD  https://cdn.stmify.com/bbc/stream/CBBC/hevc_iptv_mse_v0.mpd
-DEAD Kids (English)     CBBC HD (720p) [Geo-blocked]  https://vs-cmaf-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:cbbc_hd/iptv_hd_abr_v1.mpd
-DEAD Kids (English)     CBBC HD (720p) [Geo-blocked]  https://vs-cmaf-pushb-uk.live.fastly.md.bbci.co.uk/x=4/i=urn:bbc:pips:service:cbbc_hd/iptv_hd_abr_v1.mpd
-DEAD Kids (English)     CBBC HD (720p) [Geo-blocked]  https://vs-hls-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:cbbc_hd/mobile_wifi_main_hd_abr_v2.m3u8
-DEAD Kids (English)     CBBC HD (1080p) (HEVC) [Geo-blocked]  https://vs-cmaf-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:cbbc_hd/hevc_iptv_mse_v0.mpd
-OK   Kids (English)     PBS Kids (720p)  https://livestream.pbskids.org/out/v1/14507d931bbe48a69287e4850e53443c/est.m3u8
-DEAD Kids (English)     PBS Kids (720p)  https://tvsen7.aynascope.net/pbskids/index.m3u8
-OK   Kids (English)     Cartoon Network [Not 24/7;Geo-blocked]  https://turnerlive.warnermediacdn.com/hls/live/2023160/tooneast/noslate/VIDEO_3_1928000.m3u8
-OK   Kids (English)     Cartoon Network West (1080p) [Geo-blocked]  http://212.5.144.156:8080/cartoon/index.m3u8
 OK   Kids (English)     Cartoon Network Asia (720p)  https://cdn4.skygo.mn/live/disk1/Cartoon_Network/HLSv3-FTA/Cartoon_Network.m3u8
 DEAD Kids (English)     Cartoon Network Asia  http://202.150.165.66:8088/play/200-CartoonNetwork/index.m3u8
 DEAD Kids (English)     Cartoon Network Asia Thailand  http://103.253.74.210:7070/stream/118/index.m3u8
-OK   Kids (English)     Cartoonito Asia (720p)  http://cdn4.skygo.mn/live/disk1/Boomerang/HLSv3-FTA/Boomerang.m3u8
-DEAD Kids (English)     Cartoonito Asia  http://202.150.165.66:8088/play/201-Cartoonito/index.m3u8
-OK   Kids (English)     Nick Jr. (720p)  http://212.5.144.156:8080/nickjr/index.m3u8
-DEAD Kids (English)     Nick Jr. (720p)  http://tvsen7.aynascope.net/nickjr/index.m3u8
-DEAD Kids (English)     Nickelodeon  https://cache0.wonvt.st/live/1ewxgzu023dos60vlh62k/master.m3u8
+OK   Kids (English)     Disney Channel (720p)  http://4.30.180.36:8420/disneychannel/index.m3u8?token=test
 DEAD Kids (English)     Disney Junior (480p)  http://tvsen5.aynascope.net/disney/index.m3u8
 DEAD Kids (English)     Disney Junior (480p)  http://tvsen7.aynascope.net/disney/index.m3u8
 DEAD Kids (English)     Disney Junior (480p)  http://tvsen7.aynascope.net/disneyjr/index.m3u8
 OK   Kids (English)     Disney Junior (480p)  https://directv-iptv-player.vercel.app/api/stream?url=http://212.5.144.156:8080/disneyjr/tracks-v1a1/mono.m3u8
 OK   Kids (English)     Disney Junior (720p) [Not 24/7]  https://chunk.tvnow247.today/api/proxy/playlist?token=eyJjaGFubmVsSWQiOiI2NTIiLCJjaGFpbiI6InIyIiwidHMiOjE3OTQ4Njc4ODI0MDR9
 OK   Kids (English)     Disney Junior (576p) [Geo-blocked]  http://212.5.144.156/disneyjr/index.m3u8
-OK   Kids (English)     Disney Channel (720p)  http://4.30.180.36:8420/disneychannel/index.m3u8?token=test
+DEAD Kids (English)     Nickelodeon  https://cache0.wonvt.st/live/1ewxgzu023dos60vlh62k/master.m3u8
+OK   Kids (English)     Nick Jr. (720p)  http://212.5.144.156:8080/nickjr/index.m3u8
+DEAD Kids (English)     Nick Jr. (720p)  http://tvsen7.aynascope.net/nickjr/index.m3u8
+DEAD Kids (English)     CBeebies HD  https://cdn.stmify.com/bbc/stream/CBEEBIES/hevc_iptv_mse_v0.mpd
+DEAD Kids (English)     CBeebies HD (720p) [Geo-blocked]  https://vs-cmaf-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:cbeebies_hd/iptv_hd_abr_v1.mpd
+DEAD Kids (English)     CBeebies HD (720p) [Geo-blocked]  https://vs-cmaf-pushb-uk.live.fastly.md.bbci.co.uk/x=4/i=urn:bbc:pips:service:cbeebies_hd/iptv_hd_abr_v1.mpd
+DEAD Kids (English)     CBeebies HD (720p) [Geo-blocked]  https://vs-cmaf-pushb-uk.live.fastly.md.bbci.co.uk/x=4/i=urn:bbc:pips:service:cbeebies_hd/pc_hd_abr_v2.mpd
+DEAD Kids (English)     CBeebies HD (720p) [Geo-blocked]  https://vs-hls-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:cbeebies_hd/mobile_wifi_main_hd_abr_v2.m3u8
+DEAD Kids (English)     CBeebies HD (1080p) (HEVC) [Geo-blocked]  https://vs-cmaf-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:cbeebies_hd/hevc_iptv_mse_v0.mpd
+OK   Kids (English)     Cartoonito Asia (720p)  http://cdn4.skygo.mn/live/disk1/Boomerang/HLSv3-FTA/Boomerang.m3u8
+DEAD Kids (English)     Cartoonito Asia  http://202.150.165.66:8088/play/201-Cartoonito/index.m3u8
+OK   Kids (English)     Cartoon Network [Not 24/7;Geo-blocked]  https://turnerlive.warnermediacdn.com/hls/live/2023160/tooneast/noslate/VIDEO_3_1928000.m3u8
+OK   Kids (English)     Cartoon Network West (1080p) [Geo-blocked]  http://212.5.144.156:8080/cartoon/index.m3u8
+OK   Kids (English)     PBS Kids (720p)  https://livestream.pbskids.org/out/v1/14507d931bbe48a69287e4850e53443c/est.m3u8
+DEAD Kids (English)     PBS Kids (720p)  https://tvsen7.aynascope.net/pbskids/index.m3u8
 OK   Kids (English)     Boomerang (720p)  http://23.237.104.106:8080/USA_BOOMERANG/index.m3u8
 OK   Kids (English)     Boomerang (720p) [Geo-blocked]  http://212.5.144.156:8080/boomerang/index.m3u8
-DEAD Kids (English)     BabyTV Latin America (1080p)  http://38.44.109.41:8003/play/a0eh
-OK   Kids (English)     BabyTV Latin America (720p)  http://138.121.15.230:9002/BABY-TV/index.m3u8
-OK   Kids (English)     BabyTV Latin America (480p)  http://181.78.12.119:16123/play/ch01/index.m3u8
-DEAD Kids (English)     BabyTV Turkiye [Geo-blocked]  https://saran-live.ercdn.net/babytv/index.m3u8
 OK   Kids (English)     Peppa Pig  https://jmp2.uk/plu-5d14fb6c84dd37df3b4290c5.m3u8
 OK   Kids (English)     Super Simple Songs (1080p)  https://janson-supersimplesongs-1-us.roku.wurl.tv/playlist.m3u8
 OK   Kids (English)     Moonbug Kids (720p)  https://mumbai-edge.smartplaytv.in/Moonbug/index.m3u8
 OK   Kids (English)     Moonbug Kids (576p)  https://tvsen6.aynaott.com/MoonbugKids/index.m3u8
 OK   Kids (English)     Moonbug Kids (1080p)  https://moonbug-rokuus.amagi.tv/playlist.m3u8
 OK   Kids (English)     Moonbug (1080p)  https://dq2a9ghraf7sw.cloudfront.net/Moonbug.m3u8
+DEAD Kids (English)     BabyTV Latin America (1080p)  http://38.44.109.41:8003/play/a0eh
+OK   Kids (English)     BabyTV Latin America (720p)  http://138.121.15.230:9002/BABY-TV/index.m3u8
+OK   Kids (English)     BabyTV Latin America (480p)  http://181.78.12.119:16123/play/ch01/index.m3u8
+DEAD Kids (English)     BabyTV Turkiye [Geo-blocked]  https://saran-live.ercdn.net/babytv/index.m3u8
 OK   Kids (English)     Mr. Bean Animated (1080p)  https://amg00627-amg00627c23-samsung-au-4110.playouts.now.amagi.tv/playlist.m3u8
 OK   Kids (English)     Mr. Bean Anime Spain (1080p)  https://amg00627-amg00627c30-rakuten-es-3990.playouts.now.amagi.tv/playlist/amg00627-banijayfast-mrbeanescc-rakutenes/playlist.m3u8
 OK   Kids (English)     Banijay Mr Bean Animé (1080p)  https://amg00627-amg00627c31-rakuten-fr-3991.playouts.now.amagi.tv/playlist/amg00627-banijayfast-mrbeanfrcc-rakutenfr/playlist.m3u8
@@ -48,6 +43,11 @@ OK   Kids (English)     Mr. Bean Animated  https://jmp2.uk/plu-69fca9f9b9c0f0d44
 OK   Kids (English)     Mr. Bean Anime (1080p)  https://amg00627-amg00627c28-rakuten-uk-3984.playouts.now.amagi.tv/playlist/amg00627-banijayfast-mrbeanukcc-rakutenuk/playlist.m3u8
 OK   Kids (English)     Mr Bean Animated (1080p)  https://amg00627-amg00627c23-samsung-gb-3927.playouts.now.amagi.tv/playlist.m3u8
 OK   Kids (English)     Mr. Bean Animated (1080p)  https://d2t1w90tnft92.cloudfront.net/Mr_Bean_Animated.m3u8
+DEAD Kids (English)     CBBC HD  https://cdn.stmify.com/bbc/stream/CBBC/hevc_iptv_mse_v0.mpd
+DEAD Kids (English)     CBBC HD (720p) [Geo-blocked]  https://vs-cmaf-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:cbbc_hd/iptv_hd_abr_v1.mpd
+DEAD Kids (English)     CBBC HD (720p) [Geo-blocked]  https://vs-cmaf-pushb-uk.live.fastly.md.bbci.co.uk/x=4/i=urn:bbc:pips:service:cbbc_hd/iptv_hd_abr_v1.mpd
+DEAD Kids (English)     CBBC HD (720p) [Geo-blocked]  https://vs-hls-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:cbbc_hd/mobile_wifi_main_hd_abr_v2.m3u8
+DEAD Kids (English)     CBBC HD (1080p) (HEVC) [Geo-blocked]  https://vs-cmaf-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:cbbc_hd/hevc_iptv_mse_v0.mpd
 OK   Kids (English)     Tiny Pop (1080p)  https://amg01753-narrativeuk-amg01753c1-lg-gb-1830.playouts.now.amagi.tv/playlist/amg01753-narrativeuk-tinypop-lggb/playlist.m3u8
 OK   Kids (English)     Tiny Pop (1080p)  https://amg01753-narrativeuk-amg01753c1-lg-gb-1830.playouts.now.amagi.tv/ts-us-e2-n2/playlist/amg01753-narrativeuk-tinypop-lggb/playlist.m3u8
 OK   Kids (English)     Tiny Pop (1080p)  https://amg01753-narrativeuk-amg01753c1-rakuten-uk-2339.playouts.now.amagi.tv/ts-us-e2-n2/playlist/amg01753-narrativeuk-tinypop-rakutenuk/cb7d3e4f7b726f8c9999376cd9f547f3d1006681563ad7316cad5e9420c91853d7b9f7c0e74feb690dbd7ba33e40340d0136d41cc07c11dfa32bfb086a384837c293a20287dd4755a2a55e793acc190e39ee0f15ce24562999fb0c52d468e137555aa82e6b553982f25bad7752c5810a8a6f5fd2ef88376635455e9a5943e5b24aa0ade75a44df64a9ac14489c2f58e68314c8c915ee84dc469745d722f247999aa482db16888cab43f803f10b1a4c3078988d709dce62bfdee82f53d8227a431a04b5a696b3186ad6450e08fafbcef267f942cbc470d13064ec549e1fd136df3af071cd8e4fa4be84db475730a7c164753eb0e0d2ef915624b864a1ea83af72788ac913794af66ed730393d9cfcdf1b96b167fcc672d3e23c456f99c211cbc9e5d2b6e7df10e64fbac6f08b025242621d079462b59369cf21af1ec2aa42780e1d1ed8f03bc582ca613467598f835beb1f16ada9e8e9be5f61b80a715bec73e656047ec731780e81479b8f3736f54c7884312ec44a21967dffb722e1a2d5f13932b1aca1289b3ab8ed5288b668d16c384a3da1e63a60464373c4eb68190f75c24be3c6cbe6727b648695c8f09a125276381341338af2f74f889acf3b1829d4412a12187a7d8405dd7ccb05474e3adf44afc6667581151e29e3b1365e5f539bc9ba84f5bfa023b376c1cafb3637611909cb32013551d0b9834df8365f41795c940a634caf0e5f5198f3a381b0a14c9fc636c050631070fae007480d2035094ecdc23b840db1c745f4cd9d0f95a2d943118771fa07479b9d8a39febf8493185bc6fd064f3deab957c4773ef813d13d81d175e7bd5a0219303221a8e973da719cedb3e471e346c24e076dd57cbe8aeab0d3594fe290584155633146260526767dd2bdd4601344e9b231943b8c8f45bb4d50697b2db283044db9f87818a3216770a0d2bfe1dfda0f11d36be665c86706995a042af3c334e6d9c89997866b473fcca5ae5e84b59191c9a4a34c191d652392d550472d9d4c9e8d03f2921c6cffb689f0d46a9b709046d1f5b521e972b2cab71bba9593eaed39005b580d6ea39d8a15dfaf3542bf6bc9722e179299e1fa718967de6dc2887ed18b3e3dbe394f53f0f8eb03e92899c41b0fc9a4677fd25513e0c1de073de9058429035cd0ecb7363cece22ec76cbc94d5386daf1e19c5667f408d32c3a69e484ec09d322170cc2a49a55a87dbeb447a27ada651032108383f58e06c4f09e1075b9d4ba1c5e5b66301af20ab2c1e96708ee074838329c7d1f5d2fefc1d448ed63f37d02ec6289801e7f8a6da1a8672508b63b23b6583fef9dfe9cdee96eefc3f7817bf65b828df54bbef80b057272b58fb2d1a6b0add3ee22a0072b5e574eb866e45a7d9dc35e2277164093511ea3898b730696002a8c75cbcfe4369486b11c9e227963295642aa57e569f3b4e3b2e267b6083b1ec3ad920db5690c57821e2a4968307c68d1effae81cf9f6803e373076f69b894aea0f16032ddb5abb0044da0ca449431543e0aa0fb836618e3e42301d987ac559a9d528e39172b4ef3a98f13ee5ea313cb7e7efb1af0de6c4cecac3d151aa41eb7ec526087079970759616fd0d7eda126a534a39b87ac769146c5b8917e7f7ae5228019600d40f1246dadde98a983d5e1c01531119617d12db4832a26b4321f55761f99099c29f859e1d1131e35db3db838b4a498386a499875db2d787fce6b7011d1aad370a1ff20e409172cb1815d2b252bd78869297865f07ba8275a03f85e655767210e98b316b192c68938740c15624de0dffda8af0c46ac3cdf237306e7e770a42d36f866463460de97dbec4193cf4ff9e6b0ad08ff2a3e4cfb38553e2a0f2509a9a446ad5fab530f0ebb436f55d0655850b571607b9b0505b39cc20a9ebd7e94303a22e954d582dece7fd3bb1b7147e539661b460ab772f53856e0168710b8bc55d8adcc55a7a2515490cedd4638a5e08a5742301c093438adf8f06c10090c0afff406a1c7134f87436233582496c5105fcb9f2c31c3be406f02b65a6d9b99e1a54698a9b58959d3e748194b800c871ec75ef72ff2c461c7dc7777d719d3e240a2d7b2018a94921e59aa6ecb4348c2dfc7b4cc800a57d37ba92021b82df7d8e7d7d539fd21441af67a13fa6998850e6786ee58eebcc0a/27/1920x1080_5903040/index.m3u8
@@ -56,9 +56,9 @@ DEAD Kids (English)     Tiny Pop +1 (576p)  http://92.114.85.72:8000/play/a08p
 OK   Kids (English)     Tiny Pop (1080p)  https://amg01753-narrativeuk-amg01753c1-rakuten-uk-2339.playouts.now.amagi.tv/playlist.m3u8
 OK   Kids (English)     Tiny POP (1080p)  https://amg01753-narrativeentert-tinypop-samsunguk-hvvb7.amagi.tv/playlist/amg01753-narrativeentert-tinypop-samsunguk/playlist.m3u8
 OK   Kids (Tamil)       WOW Kidz Tamil (720p)  https://yuppparoriglin.akamaized.net/181224/smil:wowkidztam.smil/playlist.m3u8?hdnts=st=1735898689~exp=1835898688~acl=*~hmac=f5fe24724fe05481e3841f9eb5ab8efdee0a3dd83645ae9dcf45703f525bab7b
+OK   Sri Lanka          Hiru TV (360p) [Not 24/7]  https://tv.hiruhost.com:1936/8012/8012/playlist.m3u8
 OK   Sri Lanka          Rupavahini (720p)  https://rpn.bozztv.com/slrclive/slrc/slrclive/index.m3u8
 DEAD Sri Lanka          Swarnavahini (480p)  https://teledrama.ebc.lk/TTT/proxy.php
-OK   Sri Lanka          Hiru TV (360p) [Not 24/7]  https://tv.hiruhost.com:1936/8012/8012/playlist.m3u8
 OK   Sri Lanka          Siyatha TV (576p)  https://rtmp01.voaplus.com/hls/6x6ik312qk4grfxocfcv.m3u8
 DEAD Sri Lankan Tamil   IBC Tamil (1080p)  https://ibc.massstream.net/IBC/index.m3u8
 DEAD Sri Lankan Tamil   Star Tamil Television (360p)  https://edge4-moblive.yuppcdn.net/trans1sd/smil:strtml19.smil/playlist.m3u8?dvr=
@@ -66,41 +66,37 @@ OK   Tamil              Star Vijay (396p)  https://da86m1sqpm3o0.cloudfront.net/
 DEAD Tamil              Zee Tamil (576p) [Geo-blocked]  https://ev-eu-hw-fast-mpd.starzplayarabia.com/Zee_Tamil/dash/drm/index.mpd
 OK   Tamil              Zee Tamil HD (720p)  https://da86m1sqpm3o0.cloudfront.net/28072023/smil:zeetamil1.smil/playlist.m3u8
 OK   Tamil              Colors Tamil HD (720p)  https://da86m1sqpm3o0.cloudfront.net/28072023/smil:colorstamilhd11.smil/playlist.m3u8
-OK   Tamil              Kalaignar TV (396p)  https://segment.yuppcdn.net/240122/kalaignartv/playlist.m3u8
-OK   Tamil              Raj TV (1080p)  https://livestream.rajtv.tv/hlslive/Admin/px08241087/live/RAJTV/master_1.m3u8
 OK   Tamil              Polimer TV (576p)  https://mumt04.tangotv.in/m18aqlK4POLIMERTV/index.m3u8
 OK   Tamil              Polimer TV (576p)  https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main/streams/in/YuppTV/PolimerTV.m3u8
 OK   Tamil              Polimer TV (720p)  https://cdn.pishow.tv/ott/live/1241/master.m3u8
+OK   Tamil              Kalaignar TV (396p)  https://segment.yuppcdn.net/240122/kalaignartv/playlist.m3u8
+OK   Tamil              Raj TV (1080p)  https://livestream.rajtv.tv/hlslive/Admin/px08241087/live/RAJTV/master_1.m3u8
 OK   Tamil              DD Tamil (576p)  https://fta.ektv.in/live/679/master.m3u8
 OK   Tamil              DD Tamil HD (1080p)  https://cdn.pishow.tv/ott/live/1737/master.m3u8
 OK   Tamil              DD Tamil HD (1080p)  https://d2lk5u59tns74c.cloudfront.net/out/v1/abf46b14847e45499f4a47f3a9afe93d/index.m3u8
+OK   Tamil              Polimer News (576p)  https://cdn.pishow.tv/ott/live/1245/master.m3u8
+OK   Tamil              Polimer News (576p)  https://mumt05.tangotv.in/87NeALx2POLIMERNEWS/index.m3u8
+OK   Tamil              Polimer News (576p)  https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main/streams/in/YuppTV/PolimerNews.m3u8
+OK   Tamil              Polimer News (576p)  https://segment.yuppcdn.net/110322/polimernews/playlist.m3u8
+OK   Tamil              Polimer News (576p)  https://streams.tangotv.in/POLIMERNEWS/ORIGIN/index.m3u8
+DEAD Tamil              Thanthi TV (576p)  https://mumt03.tangotv.in/Dsly5z3HTHANTHITV/index.m3u8
+OK   Tamil              Thanthi TV (576p)  https://streams.tangotv.in/THANTHITV/ORIGIN/index.m3u8
+OK   Tamil              Thanthi TV (576p)  https://cdn.pishow.tv/ott/live/1612/master.m3u8
 OK   Tamil              Puthiya Thalaimurai (576p)  https://cdn.pishow.tv/ott/live/1261/master.m3u8
 OK   Tamil              Puthiya Thalaimurai (576p)  https://mumbai-edge.smartplaytv.in/Puthiyathalaimurai/index.m3u8
 OK   Tamil              Puthiya Thalaimurai (576p)  https://mumt07.tangotv.in/zHjX9OFlPUTHIYAEXPRESS/index.m3u8
 OK   Tamil              Puthiya Thalaimurai (576p)  https://mumt07.tangotv.in/zHjX9OFlPUTHIYATHALAIMURAI/index.m3u8
 OK   Tamil              Puthiya Thalaimurai (576p)  https://segment.yuppcdn.net/240122/puthiya/playlist.m3u8
 OK   Tamil              Puthiya Thalaimurai (576p)  https://streams.tangotv.in/PUTHIYATHALAIMURAI/ORIGIN/index.m3u8
-DEAD Tamil              Thanthi TV (576p)  https://mumt03.tangotv.in/Dsly5z3HTHANTHITV/index.m3u8
-OK   Tamil              Thanthi TV (576p)  https://streams.tangotv.in/THANTHITV/ORIGIN/index.m3u8
-OK   Tamil              Thanthi TV (576p)  https://cdn.pishow.tv/ott/live/1612/master.m3u8
-OK   Tamil              News18 Tamil Nadu (1080p)  https://n18syndication.akamaized.net/bpk-tv/News18_Tamil_Nadu_NW18_MOB/output01/master.m3u8
+DEAD Tamil              News18 Tamil Nadu (1080p)  https://n18syndication.akamaized.net/bpk-tv/News18_Tamil_Nadu_NW18_MOB/output01/master.m3u8
 OK   Tamil              News 7 Tamil (576p)  https://cdn.pishow.tv/ott/live/1498/master.m3u8
 OK   Tamil              News 7 Tamil (576p)  https://mumt07.tangotv.in/zHjX9OFlNEWS7TAMIL/index.m3u8
 OK   Tamil              News 7 Tamil (576p)  https://segment.yuppcdn.net/240122/news7/playlist.m3u8
 OK   Tamil              News 7 Tamil (576p)  https://streams.tangotv.in/NEWS7TAMIL/ORIGIN/index.m3u8
-OK   Tamil              Polimer News (576p)  https://cdn.pishow.tv/ott/live/1245/master.m3u8
-OK   Tamil              Polimer News (576p)  https://mumt05.tangotv.in/87NeALx2POLIMERNEWS/index.m3u8
-OK   Tamil              Polimer News (576p)  https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main/streams/in/YuppTV/PolimerNews.m3u8
-OK   Tamil              Polimer News (576p)  https://segment.yuppcdn.net/110322/polimernews/playlist.m3u8
-OK   Tamil              Polimer News (576p)  https://streams.tangotv.in/POLIMERNEWS/ORIGIN/index.m3u8
 OK   Tamil              Sathiyam TV (576p)  https://mumt07.tangotv.in/zHjX9OFlSATHIYAMTV/index.m3u8
 OK   Tamil              Kalaignar Seithigal (576p)  https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main/streams/in/YuppTV/KalaignarSeithigal.m3u8
 OK   Tamil              Kalaignar Seithigal (576p)  https://yuppnimresmum.akamaized.net/120723/smil:seithagal.smil/playlist.m3u8?hdnts=st=1735898689~exp=1835898688~acl=*~hmac=f5fe24724fe05481e3841f9eb5ab8efdee0a3dd83645ae9dcf45703f525bab7b
 OK   Tamil              Isai Aruvi (396p)  https://segment.yuppcdn.net/140622/isaiaruvi/playlist.m3u8
-OK   Malayalam          Asianet Movies (396p)  https://da86m1sqpm3o0.cloudfront.net/28072023/smil:asianetmovies.smil/chunklist_b1928000.m3u8
-OK   Malayalam          Kairali We (576p)  https://mumt01.tangotv.in/O5aw8Zn3WETV/index.m3u8
-OK   Malayalam          Kairali We (576p)  https://streams.tangotv.in/WETV/ORIGIN/index.m3u8
-OK   Malayalam          Kairali We (576p)  https://cdn.pishow.tv/ott/live/1530/master.m3u8
 OK   Malayalam          Asianet HD (1080p)  https://da86m1sqpm3o0.cloudfront.net/28072023/smil:starasianet.smil/chunklist_b1928000.m3u8
 OK   Malayalam          Asianet HD (720p)  https://listas-m3u8.github.io/iptv/128.19.173.10:8888/ASIANETHD.m3u8
 OK   Malayalam          Mazhavil Manorama (576p)  https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/ad6c59acd03b4b5a9928e32d7fee66db/index.m3u8
@@ -112,22 +108,18 @@ OK   Malayalam          Mazhavil Manorama HD (1080p)  https://fta.ektv.in/live/2
 OK   Malayalam          Mazhavil Manorama HD (1080p)  https://mmtv-vglivessai.akamaized.net/v1/master/673630b269b766886555eebfddd4f27f3de3ab50/f8a0827f-030f-4a0d-b7e5-338996c09a5b/index.m3u8
 OK   Malayalam          Mazhavil Manorama HD (576p)  http://103.175.73.12:8080/live/245/master.m3u8
 OK   Malayalam          Mazhavil Manorama HD (576p)  https://mumt07.tangotv.in/zHjX9OFlMAZHAVILMANORAMAHD/index.m3u8
+OK   Malayalam          Asianet Movies (396p)  https://da86m1sqpm3o0.cloudfront.net/28072023/smil:asianetmovies.smil/chunklist_b1928000.m3u8
+OK   Malayalam          Kairali TV (576p)  https://mumt01.tangotv.in/O5aw8Zn3KAIRALI/index.m3u8
+OK   Malayalam          Kairali TV (576p)  https://streams.tangotv.in/KAIRALI/ORIGIN/index.m3u8
+OK   Malayalam          Kairali We (576p)  https://mumt01.tangotv.in/O5aw8Zn3WETV/index.m3u8
+OK   Malayalam          Kairali We (576p)  https://streams.tangotv.in/WETV/ORIGIN/index.m3u8
+OK   Malayalam          Kairali We (576p)  https://cdn.pishow.tv/ott/live/1530/master.m3u8
 OK   Malayalam          Amrita TV (720p)  https://ddash74r36xqp.cloudfront.net/master.m3u8
 OK   Malayalam          Amrita TV (576p)  https://fta.ektv.in/live/698/master.m3u8
 OK   Malayalam          Amrita TV (576p)  https://mumt07.tangotv.in/zHjX9OFlAMRITATV/index.m3u8
-OK   Malayalam          Kairali TV (576p)  https://mumt01.tangotv.in/O5aw8Zn3KAIRALI/index.m3u8
-OK   Malayalam          Kairali TV (576p)  https://streams.tangotv.in/KAIRALI/ORIGIN/index.m3u8
 OK   Malayalam          DD Malayalam (576p)  https://fta.ektv.in/live/680/master.m3u8
 OK   Malayalam          DD Malayalam (504p)  https://d2lk5u59tns74c.cloudfront.net/out/v1/c313674ffced4c9a90f1bba436df2b9b/index.m3u8
 OK   Cricket            Sony Sports Ten 3 Hindi (1080p)  https://r2.amml.in/sony-ten-3-hd/live.m3u8
-OK   Cricket            DD Sports (720p)  https://mumbai-edge.smartplaytv.in/DDSportsHD/index.m3u8
-OK   Cricket            DD Sports (576p)  https://fta.ektv.in/live/64/64_0.m3u8
-OK   Cricket            DD Sports (576p)  https://mumt07.tangotv.in/zHjX9OFlDDSPORTS/index.m3u8
-OK   Cricket            DD Sports HD (1080p)  https://cdn.pishow.tv/ott/live/1161/master.m3u8
-OK   Cricket            DD Sports HD (1080p)  https://fta.ektv.in/live/280/master.m3u8
-OK   Cricket            DD Sports SD (576p)  https://mumbai-edge.smartplaytv.in/DDSports/index.m3u8
-OK   Cricket            DD Sports SD (1080p)  https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/b17adfe543354fdd8d189b110617cddd/index.m3u8
-OK   Cricket            DD Sports (720p)  https://cdn.pishow.tv/ott/live/13/master.m3u8
 DEAD Cricket            Willow (720p)  http://tvsen5.aynascope.net/willowhd/index.m3u8
 DEAD Cricket            Willow (720p)  http://tvsen7.aynascope.net/rEBp38Ax/index.m3u8
 OK   Cricket            Willow (720p)  https://tvsen5.aynaott.com/willowhd/index.m3u8
@@ -140,22 +132,30 @@ OK   Cricket            Willow Sports (1080p) [Geo-blocked]  https://amg01269-am
 OK   Cricket            Willow Sports (1080p)  https://d36r8jifhgsk5j.cloudfront.net/Willow_TV.m3u8
 DEAD Cricket            PTV Sports (1080p)  http://103.250.28.74:8000/play/a019/index.m3u8
 DEAD Cricket            PTV Sports (720p)  https://tvsen7.aynascope.net/Sports1/index.m3u8
+DEAD Cricket            Ten Sports Pakistan  http://121.91.61.106:8000/play/a04h/index.m3u8
 DEAD Cricket            T Sports (1080p)  https://tvsen5.aynaott.com/TnMn5kZz8aLm/index.m3u8
 DEAD Cricket            Gazi TV (1080p)  http://tvn1.chowdhury-shaheb.com/gazitv/index.m3u8
 OK   Cricket            Gazi TV (720p)  https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/gazibdz.stream/live-orgin/gazibdz.stream/playlist.m3u8
-DEAD Cricket            Ten Sports Pakistan  http://121.91.61.106:8000/play/a04h/index.m3u8
+OK   Cricket            DD Sports (720p)  https://mumbai-edge.smartplaytv.in/DDSportsHD/index.m3u8
+OK   Cricket            DD Sports (576p)  https://fta.ektv.in/live/64/64_0.m3u8
+OK   Cricket            DD Sports (576p)  https://mumt07.tangotv.in/zHjX9OFlDDSPORTS/index.m3u8
+OK   Cricket            DD Sports HD (1080p)  https://cdn.pishow.tv/ott/live/1161/master.m3u8
+OK   Cricket            DD Sports HD (1080p)  https://fta.ektv.in/live/280/master.m3u8
+OK   Cricket            DD Sports SD (576p)  https://mumbai-edge.smartplaytv.in/DDSports/index.m3u8
+OK   Cricket            DD Sports SD (1080p)  https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/b17adfe543354fdd8d189b110617cddd/index.m3u8
+OK   Cricket            DD Sports (720p)  https://cdn.pishow.tv/ott/live/13/master.m3u8
 OK   Islamic            Al Quran Al Kareem TV (720p)  http://m.live.net.sa:1935/live/quran/gmswf.m3u8
 OK   Islamic            Al Quran Al Kareem TV (720p)  http://m.live.net.sa:1935/live/quran/playlist.m3u8
 OK   Islamic            Al Quran Al Kareem TV (360p) [Not 24/7]  https://cdn-globecast.akamaized.net/live/eds/saudi_quran/hls_roku/index.m3u8
 OK   Islamic            Al Sunnah Al Nabawiyah TV (720p)  http://m.live.net.sa:1935/live/sunnah/gmswf.m3u8
 OK   Islamic            Al Sunnah Al Nabawiyah TV (720p)  http://m.live.net.sa:1935/live/sunnah/playlist.m3u8
 OK   Islamic            Al Sunnah Al Nabawiyah TV (360p)  https://cdn-globecast.akamaized.net/live/eds/saudi_sunnah/hls_roku/index.m3u8
-DEAD Islamic            Makkah [Geo-blocked]  https://op-group1-swiftservesd-1.dens.tv/s/s28/index.m3u8
-OK   Islamic            Makkah TV (576p)  https://media2.streambrothers.com:1936/8122/8122/playlist.m3u8
 OK   Islamic            Peace TV English (1080p)  https://dzkyvlfyge.erbvr.com/PeaceTvEnglish/index.m3u8
 OK   Islamic            Huda TV (720p) [Not 24/7]  https://cdn.bestream.io:19360/elfaro1/elfaro1.m3u8
 DEAD Islamic            Islam Channel (576p) [Not 24/7]  https://live.islamchannel.tv/live11/islamtv_english/bitrate1.isml/live.m3u8
 OK   Islamic            Iqraa Quran (1080p)  https://playlist.fasttvcdn.com/pl/dlkqw1ftuvuuzkcb4pxdcg/Iqraafasttv2/playlist.m3u8
 DEAD Islamic            Madani Channel English (720p)  http://tvsen7.aynascope.net/MadaniTV/index.m3u8
 OK   Islamic            Madani Channel English (720p)  https://streaming.madanichannel.tv/static/streaming-playlists/hls/c6a600b0-82cb-454a-8953-2bb2bb372edc/master.m3u8
+DEAD Islamic            Makkah [Geo-blocked]  https://op-group1-swiftservesd-1.dens.tv/s/s28/index.m3u8
+OK   Islamic            Makkah TV (576p)  https://media2.streambrothers.com:1936/8122/8122/playlist.m3u8
 DEAD Islamic            Eman Channel (576p)  https://ap02.iqplay.tv:8082/iqb8002/3m9n/playlist.m3u8
