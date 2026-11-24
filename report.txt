@@ -55,7 +55,6 @@ DEAD Kids (English)     Tiny Pop (576p)  http://92.114.85.72:8000/play/a08g
 DEAD Kids (English)     Tiny Pop +1 (576p)  http://92.114.85.72:8000/play/a08p
 OK   Kids (English)     Tiny Pop (1080p)  https://amg01753-narrativeuk-amg01753c1-rakuten-uk-2339.playouts.now.amagi.tv/playlist.m3u8
 OK   Kids (English)     Tiny POP (1080p)  https://amg01753-narrativeentert-tinypop-samsunguk-hvvb7.amagi.tv/playlist/amg01753-narrativeentert-tinypop-samsunguk/playlist.m3u8
-OK   Kids (Tamil)       Chithiram (576p)  https://cdn.pishow.tv/ott/live/1243/master.m3u8
 OK   Kids (Tamil)       WOW Kidz Tamil (720p)  https://yuppparoriglin.akamaized.net/181224/smil:wowkidztam.smil/playlist.m3u8?hdnts=st=1735898689~exp=1835898688~acl=*~hmac=f5fe24724fe05481e3841f9eb5ab8efdee0a3dd83645ae9dcf45703f525bab7b
 OK   Sri Lanka          Rupavahini (720p)  https://rpn.bozztv.com/slrclive/slrc/slrclive/index.m3u8
 DEAD Sri Lanka          Swarnavahini (480p)  https://teledrama.ebc.lk/TTT/proxy.php

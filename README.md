@@ -14,9 +14,9 @@ Paste this link into VLC (Media → Open Network Stream), TiviMate or IPTV Smart
 
 Download: [my-iptv.apk](https://github.com/mohamedzakee/my-iptv/releases/download/app/my-iptv.apk) (built automatically from the `android/` folder). Install it on the TV with the Downloader app.
 
-## Channels (44 working)
+## Channels (43 working)
 
-_Last checked: 24 Nov 2026, 04:05 PM (Sri Lanka time). Updated automatically every day; dead streams are dropped and up to 2 working streams are kept per channel._
+_Last checked: 24 Nov 2026, 04:10 PM (Sri Lanka time). Updated automatically every day; dead streams are dropped and up to 2 working streams are kept per channel._
 
 ### Kids (English) (11)
 
@@ -32,9 +32,8 @@ _Last checked: 24 Nov 2026, 04:05 PM (Sri Lanka time). Updated automatically eve
 - Mr Bean Animated
 - Tiny Pop
 
-### Kids (Tamil) (2)
+### Kids (Tamil) (1)
 
-- Chithiram
 - WOW Kidz
 
 ### Sri Lanka (3)
