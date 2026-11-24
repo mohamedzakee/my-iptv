@@ -14,11 +14,11 @@ Paste this link into VLC (Media → Open Network Stream), TiviMate or IPTV Smart
 
 Download: [my-iptv.apk](https://github.com/mohamedzakee/my-iptv/releases/download/app/my-iptv.apk) (built automatically from the `android/` folder). Install it on the TV with the Downloader app.
 
-## Channels (43 working)
+## Channels (41 working)
 
-_Last checked: 23 Nov 2026, 07:16 AM (Sri Lanka time). Updated automatically every day; dead streams are dropped and up to 2 working streams are kept per channel._
+_Last checked: 24 Nov 2026, 10:51 AM (Sri Lanka time). Updated automatically every day; dead streams are dropped and up to 2 working streams are kept per channel._
 
-### Kids (English) (11)
+### Kids (English) (12)
 
 - PBS Kids
 - Cartoon Network Asia
@@ -26,6 +26,7 @@ _Last checked: 23 Nov 2026, 07:16 AM (Sri Lanka time). Updated automatically eve
 - Nick Jr.
 - Disney Junior
 - Disney Channel
+- Boomerang
 - Peppa Pig
 - Super Simple Songs
 - Moonbug Kids
@@ -38,11 +39,11 @@ _Last checked: 23 Nov 2026, 07:16 AM (Sri Lanka time). Updated automatically eve
 - Hiru TV
 - Siyatha TV
 
-### Sri Lankan Tamil (1)
+### Sri Lankan Tamil (0)
 
-- Imai TV
+_No working streams right now._
 
-### Tamil (16)
+### Tamil (15)
 
 - Star Vijay
 - Zee Tamil
@@ -58,14 +59,12 @@ _Last checked: 23 Nov 2026, 07:16 AM (Sri Lanka time). Updated automatically eve
 - Polimer News
 - Sathiyam TV
 - Kalaignar Seithigal
-- Zee Tamil News
 - Isai Aruvi
 
-### Cricket (5)
+### Cricket (4)
 
 - Sony Sports Ten 3 Hindi
 - DD Sports
-- Willow
 - Willow Sports
 - Gazi TV
 
