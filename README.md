@@ -14,9 +14,9 @@ Paste this link into VLC (Media → Open Network Stream), TiviMate or IPTV Smart
 
 Download: [my-iptv.apk](https://github.com/mohamedzakee/my-iptv/releases/download/app/my-iptv.apk) (built automatically from the `android/` folder). Install it on the TV with the Downloader app.
 
-## Channels (51 working)
+## Channels (50 working)
 
-_Last checked: 24 Nov 2026, 04:13 PM (Sri Lanka time). Updated automatically every day; dead streams are dropped and up to 2 working streams are kept per channel._
+_Last checked: 24 Nov 2026, 06:56 PM (Sri Lanka time). Updated automatically every day; dead streams are dropped and up to 2 working streams are kept per channel._
 
 ### Kids (English) (12)
 
@@ -43,9 +43,9 @@ _Last checked: 24 Nov 2026, 04:13 PM (Sri Lanka time). Updated automatically eve
 - Hiru TV
 - Siyatha TV
 
-### Sri Lankan Tamil (1)
+### Sri Lankan Tamil (0)
 
-- Imai TV
+_No working streams right now._
 
 ### Tamil (15)
 

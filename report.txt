@@ -61,8 +61,6 @@ DEAD Sri Lanka          Swarnavahini (480p)  https://teledrama.ebc.lk/TTT/proxy.
 OK   Sri Lanka          Hiru TV (360p) [Not 24/7]  https://tv.hiruhost.com:1936/8012/8012/playlist.m3u8
 OK   Sri Lanka          Siyatha TV (576p)  https://rtmp01.voaplus.com/hls/6x6ik312qk4grfxocfcv.m3u8
 DEAD Sri Lankan Tamil   IBC Tamil (1080p)  https://ibc.massstream.net/IBC/index.m3u8
-OK   Sri Lankan Tamil   Imai TV (576i)  https://jalworldiptv.vercel.app/iptv/imaitv/playlist.m3u8
-DEAD Sri Lankan Tamil   Imai TV (576i)  https://live20.bozztv.com/akamaissh101/ssh101/imaitv/playlist.m3u8
 DEAD Sri Lankan Tamil   Star Tamil Television (360p)  https://edge4-moblive.yuppcdn.net/trans1sd/smil:strtml19.smil/playlist.m3u8?dvr=
 OK   Tamil              Star Vijay (396p)  https://da86m1sqpm3o0.cloudfront.net/28072023/smil:starvijayuk.smil/playlist.m3u8
 DEAD Tamil              Zee Tamil (576p) [Geo-blocked]  https://ev-eu-hw-fast-mpd.starzplayarabia.com/Zee_Tamil/dash/drm/index.mpd
@@ -73,7 +71,7 @@ OK   Tamil              Raj TV (1080p)  https://livestream.rajtv.tv/hlslive/Admi
 OK   Tamil              Polimer TV (576p)  https://mumt04.tangotv.in/m18aqlK4POLIMERTV/index.m3u8
 OK   Tamil              Polimer TV (576p)  https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main/streams/in/YuppTV/PolimerTV.m3u8
 OK   Tamil              Polimer TV (720p)  https://cdn.pishow.tv/ott/live/1241/master.m3u8
-DEAD Tamil              DD Tamil (576p)  https://fta.ektv.in/live/679/master.m3u8
+OK   Tamil              DD Tamil (576p)  https://fta.ektv.in/live/679/master.m3u8
 OK   Tamil              DD Tamil HD (1080p)  https://cdn.pishow.tv/ott/live/1737/master.m3u8
 OK   Tamil              DD Tamil HD (1080p)  https://d2lk5u59tns74c.cloudfront.net/out/v1/abf46b14847e45499f4a47f3a9afe93d/index.m3u8
 OK   Tamil              Puthiya Thalaimurai (576p)  https://cdn.pishow.tv/ott/live/1261/master.m3u8
@@ -119,7 +117,7 @@ OK   Malayalam          Amrita TV (576p)  https://fta.ektv.in/live/698/master.m3
 OK   Malayalam          Amrita TV (576p)  https://mumt07.tangotv.in/zHjX9OFlAMRITATV/index.m3u8
 OK   Malayalam          Kairali TV (576p)  https://mumt01.tangotv.in/O5aw8Zn3KAIRALI/index.m3u8
 OK   Malayalam          Kairali TV (576p)  https://streams.tangotv.in/KAIRALI/ORIGIN/index.m3u8
-DEAD Malayalam          DD Malayalam (576p)  https://fta.ektv.in/live/680/master.m3u8
+OK   Malayalam          DD Malayalam (576p)  https://fta.ektv.in/live/680/master.m3u8
 OK   Malayalam          DD Malayalam (504p)  https://d2lk5u59tns74c.cloudfront.net/out/v1/c313674ffced4c9a90f1bba436df2b9b/index.m3u8
 OK   Cricket            Sony Sports Ten 3 Hindi (1080p)  https://r2.amml.in/sony-ten-3-hd/live.m3u8
 OK   Cricket            DD Sports (720p)  https://mumbai-edge.smartplaytv.in/DDSportsHD/index.m3u8
