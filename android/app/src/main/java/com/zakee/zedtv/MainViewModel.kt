@@ -1,4 +1,4 @@
-package com.zakee.myiptv
+package com.zakee.zedtv
 
 import android.app.Application
 import androidx.lifecycle.AndroidViewModel

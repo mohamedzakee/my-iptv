@@ -1,4 +1,4 @@
-package com.zakee.myiptv
+package com.zakee.zedtv
 
 import org.junit.Assert.assertEquals
 import org.junit.Assert.assertNull

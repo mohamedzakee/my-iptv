@@ -1,4 +1,4 @@
-package com.zakee.myiptv
+package com.zakee.zedtv
 
 /** Parses an M3U playlist. Streams with the same tvg-id become one channel with backup streams. */
 object M3u {

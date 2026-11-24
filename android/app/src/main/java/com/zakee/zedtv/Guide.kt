@@ -1,4 +1,4 @@
-package com.zakee.myiptv
+package com.zakee.zedtv
 
 import org.json.JSONObject
 

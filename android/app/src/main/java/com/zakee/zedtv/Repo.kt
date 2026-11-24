@@ -1,4 +1,4 @@
-package com.zakee.myiptv
+package com.zakee.zedtv
 
 import android.content.Context
 import kotlinx.coroutines.Dispatchers
@@ -17,7 +17,7 @@ import java.util.concurrent.TimeUnit
 
 /** Single source of truth for channels, guide and stream health, shared by both screens. */
 object Repo {
-    private const val BASE = "https://raw.githubusercontent.com/mohamedzakee/my-iptv/main/"
+    private const val BASE = "https://raw.githubusercontent.com/mohamedzakee/zedtv/main/"
     const val PLAYLIST_URL = BASE + "tv.m3u"
     const val GUIDE_URL = BASE + "epg.json"
 

@@ -1,4 +1,4 @@
-package com.zakee.myiptv
+package com.zakee.zedtv
 
 data class Stream(val url: String, val userAgent: String?, val referrer: String?)
 

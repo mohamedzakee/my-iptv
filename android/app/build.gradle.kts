@@ -6,11 +6,11 @@ plugins {
 val buildNumber = (System.getenv("GITHUB_RUN_NUMBER") ?: "1").toInt()
 
 android {
-    namespace = "com.zakee.myiptv"
+    namespace = "com.zakee.zedtv"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.zakee.myiptv"
+        applicationId = "com.zakee.zedtv"
         minSdk = 21
         targetSdk = 34
         versionCode = buildNumber
@@ -21,9 +21,9 @@ android {
         create("release") {
             // Key comes from the KEYSTORE_BASE64 GitHub secret (decoded by the workflow), so it
             // never sits in the public repo. The same key every build lets the TV install updates.
-            storeFile = file(System.getenv("KEYSTORE_FILE") ?: "../keystore/myiptv.jks")
+            storeFile = file(System.getenv("KEYSTORE_FILE") ?: "../keystore/zedtv.jks")
             storePassword = System.getenv("KEYSTORE_PASSWORD") ?: "android"
-            keyAlias = System.getenv("KEY_ALIAS") ?: "myiptv"
+            keyAlias = System.getenv("KEY_ALIAS") ?: "zedtv"
             keyPassword = System.getenv("KEYSTORE_PASSWORD") ?: "android"
         }
     }

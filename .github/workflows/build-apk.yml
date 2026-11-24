@@ -25,15 +25,15 @@ jobs:
         run: |
           mkdir -p "$RUNNER_TEMP/ks"
           if [ -n "$KEYSTORE_BASE64" ]; then
-            echo "$KEYSTORE_BASE64" | base64 -d > "$RUNNER_TEMP/ks/myiptv.jks"
+            echo "$KEYSTORE_BASE64" | base64 -d > "$RUNNER_TEMP/ks/zedtv.jks"
             echo "::notice::Signed with your saved key (updates install over the old version)."
           else
-            keytool -genkeypair -keystore "$RUNNER_TEMP/ks/myiptv.jks" -alias myiptv -keyalg RSA \
+            keytool -genkeypair -keystore "$RUNNER_TEMP/ks/zedtv.jks" -alias zedtv -keyalg RSA \
               -keysize 2048 -validity 10000 -storepass "$KEYSTORE_PASSWORD" -keypass "$KEYSTORE_PASSWORD" \
-              -dname "CN=My IPTV"
+              -dname "CN=ZED.TV"
             echo "::warning::No KEYSTORE_BASE64 secret, so a new key was made. Uninstall the old app before installing this build."
           fi
-          echo "KEYSTORE_FILE=$RUNNER_TEMP/ks/myiptv.jks" >> "$GITHUB_ENV"
+          echo "KEYSTORE_FILE=$RUNNER_TEMP/ks/zedtv.jks" >> "$GITHUB_ENV"
       - name: Build APK
         working-directory: android
         run: |
@@ -43,11 +43,11 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          cp android/app/build/outputs/apk/release/app-release.apk my-iptv.apk
+          cp android/app/build/outputs/apk/release/app-release.apk zedtv.apk
           gh release delete app --yes --cleanup-tag || true
-          gh release create app my-iptv.apk --target "$GITHUB_SHA" \
+          gh release create app zedtv.apk --target "$GITHUB_SHA" \
             --title "ZED.TV (build ${{ github.run_number }})" \
-            --notes "ZED.TV Android TV app. Download: https://github.com/${{ github.repository }}/releases/download/app/my-iptv.apk"
+            --notes "ZED.TV Android TV app. Download: https://github.com/${{ github.repository }}/releases/download/app/zedtv.apk"
       - name: Save build log on failure
         if: failure()
         run: |

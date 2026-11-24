@@ -19,7 +19,7 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: "22"
-      - name: Get iptv-org/epg
+      - name: Get guide grabber
         run: |
           git clone -q --depth 1 https://github.com/iptv-org/epg.git /tmp/epg
           cd /tmp/epg && npm ci --no-audit --no-fund

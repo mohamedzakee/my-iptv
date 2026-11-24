@@ -1,4 +1,4 @@
-package com.zakee.myiptv
+package com.zakee.zedtv
 
 import android.content.Context
 import android.content.Intent
@@ -11,7 +11,7 @@ import java.io.File
 
 /** Checks the GitHub release for a newer build and installs it (no adb needed). */
 object Updater {
-    private const val API = "https://api.github.com/repos/mohamedzakee/my-iptv/releases/tags/app"
+    private const val API = "https://api.github.com/repos/mohamedzakee/zedtv/releases/tags/app"
 
     data class Release(val build: Int, val apkUrl: String)
 

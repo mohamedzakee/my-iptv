@@ -1,13 +1,13 @@
-"""Build Tamil_SriLanka_Cricket.m3u from iptv-org, keeping only streams that respond."""
+"""Build tv.m3u from the public channel database, keeping only streams that respond."""
 import csv, glob, json, os, re, sys, urllib.request
 from concurrent.futures import ThreadPoolExecutor
 
-SRC = sys.argv[1]          # folder with cloned iptv-org/iptv and iptv-org/database
+SRC = sys.argv[1]          # folder with the cloned stream list and channel database
 OUT = sys.argv[2]
 MAX_PER_CHANNEL = 2
 UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0 Safari/537.36"
 
-# group -> channel ids in iptv-org database, in display order. Edit scripts/channels.json to change.
+# group -> channel ids in the channel database, in display order. Edit scripts/channels.json to change.
 CHANNELS = json.load(open(os.path.join(os.path.dirname(__file__), "channels.json"), encoding="utf-8"))
 # drop foreign-language versions of the same channel
 SKIP = re.compile(r"Latin America|Spain|Italy|Turkiye|Thailand|Espa|Arabia|Anim\u00e9", re.I)
@@ -48,7 +48,7 @@ def parse(path):
             cur["url"] = ln.strip(); yield cur; cur = None
 
 streams = {}
-for f in sorted(glob.glob(f"{SRC}/iptv/streams/*.m3u")):
+for f in sorted(glob.glob(f"{SRC}/list/streams/*.m3u")):
     for e in parse(f):
         m = re.search(r'tvg-id="([^"@]*)(@[^"]*)?"', e["inf"])
         if m:
@@ -94,13 +94,12 @@ print(f"{sum(count.values())} working streams for {len(count)} channels (tested 
 # README with the current channel list
 from datetime import datetime, timezone, timedelta
 now = datetime.now(timezone(timedelta(hours=5, minutes=30))).strftime("%d %b %Y, %I:%M %p")
-md = ["# My IPTV", "",
-      "Tamil, Sri Lankan, Cricket, English kids and Islamic TV channels, filtered from "
-      "[iptv-org/iptv](https://github.com/iptv-org/iptv).", "",
-      "## Playlist URL", "", "```", "https://raw.githubusercontent.com/mohamedzakee/my-iptv/main/tv.m3u", "```", "",
-      "Paste this link into VLC (Media \u2192 Open Network Stream), TiviMate or IPTV Smarters.", "",
+md = ["# ZED.TV", "",
+      "Channel list and Android TV app for ZED.TV.", "",
+      "## Playlist URL", "", "```", "https://raw.githubusercontent.com/mohamedzakee/zedtv/main/tv.m3u", "```", "",
+      "Paste this link into VLC (Media \u2192 Open Network Stream).", "",
       "## Android TV app", "",
-      "Download: [my-iptv.apk](https://github.com/mohamedzakee/my-iptv/releases/download/app/my-iptv.apk) "
+      "Download: [zedtv.apk](https://github.com/mohamedzakee/zedtv/releases/download/app/zedtv.apk) "
       "(built automatically from the `android/` folder). Install it on the TV with the Downloader app.", "",
       f"## Channels ({sum(len(v) for v in listed.values())} working)", "",
       f"_Last checked: {now} (Sri Lanka time). Updated automatically every day; dead streams are dropped "
@@ -110,7 +109,7 @@ for g, chs in listed.items():
     md += [f"- {c}" for c in chs] if chs else ["_No working streams right now._"]
     md.append("")
 md += ["## Notes", "",
-       "- These are free public streams found by the iptv-org community. Some may stop working or play only at certain hours.",
+       "- These are free public streams. Some may stop working or play only at certain hours.",
        "- See [report.txt](report.txt) for the result of every stream tested.",
        "- Channel list is set in [scripts/build.py](scripts/build.py)."]
 open(os.path.join(os.path.dirname(OUT) or ".", "README.md"), "w", encoding="utf-8").write("\n".join(md) + "\n")

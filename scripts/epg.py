@@ -1,6 +1,6 @@
 """TV guide helper.
 
-prepare <epg_repo> <out.xml>   pick one guide source per channel from iptv-org/epg
+prepare <epg_repo> <out.xml>   pick one guide source per channel from the EPG grabber repo
 convert <guide.xml> <out.json> turn XMLTV into a small now/next file for the app
 """
 import glob, json, os, re, sys, time

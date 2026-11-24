@@ -12,9 +12,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Get iptv-org data
+      - name: Get channel data
         run: |
-          git clone -q --depth 1 https://github.com/iptv-org/iptv.git /tmp/src/iptv
+          git clone -q --depth 1 https://github.com/iptv-org/iptv.git /tmp/src/list
           git clone -q --depth 1 https://github.com/iptv-org/database.git /tmp/src/database
       - name: Build and test streams
         run: python3 scripts/build.py /tmp/src tv.m3u
