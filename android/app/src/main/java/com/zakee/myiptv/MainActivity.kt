@@ -69,6 +69,13 @@ class MainActivity : AppCompatActivity() {
             }
         }
         rows.itemAnimator = null
+        // Empty space after the last row (as part of the content, so nothing needs to draw outside the list).
+        val bottomSpace = (80 * resources.displayMetrics.density).toInt()
+        rows.addItemDecoration(object : RecyclerView.ItemDecoration() {
+            override fun getItemOffsets(out: android.graphics.Rect, v: View, parent: RecyclerView, state: RecyclerView.State) {
+                if (parent.getChildAdapterPosition(v) == state.itemCount - 1) out.bottom = bottomSpace
+            }
+        })
         rows.setItemViewCacheSize(8)
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.S && !App.isLowRam(this)) {
             ambient.setRenderEffect(RenderEffect.createBlurEffect(90f, 90f, Shader.TileMode.CLAMP))
