@@ -14,15 +14,16 @@ Paste this link into VLC (Media → Open Network Stream), TiviMate or IPTV Smart
 
 Download: [my-iptv.apk](https://github.com/mohamedzakee/my-iptv/releases/download/app/my-iptv.apk) (built automatically from the `android/` folder). Install it on the TV with the Downloader app.
 
-## Channels (43 working)
+## Channels (51 working)
 
-_Last checked: 24 Nov 2026, 04:10 PM (Sri Lanka time). Updated automatically every day; dead streams are dropped and up to 2 working streams are kept per channel._
+_Last checked: 24 Nov 2026, 04:13 PM (Sri Lanka time). Updated automatically every day; dead streams are dropped and up to 2 working streams are kept per channel._
 
-### Kids (English) (11)
+### Kids (English) (12)
 
 - PBS Kids
 - Cartoon Network Asia
 - Cartoonito Asia
+- Nick Jr.
 - Disney Junior
 - Disney Channel
 - Boomerang
@@ -63,6 +64,16 @@ _Last checked: 24 Nov 2026, 04:10 PM (Sri Lanka time). Updated automatically eve
 - Sathiyam TV
 - Kalaignar Seithigal
 - Isai Aruvi
+
+### Malayalam (7)
+
+- Asianet Movies
+- Kairali We
+- Asianet
+- Mazhavil Manorama
+- Amrita TV
+- Kairali TV
+- DD Malayalam
 
 ### Cricket (5)
 
