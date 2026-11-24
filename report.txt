@@ -88,7 +88,7 @@ OK   Tamil              Puthiya Thalaimurai (576p)  https://mumt07.tangotv.in/zH
 OK   Tamil              Puthiya Thalaimurai (576p)  https://mumt07.tangotv.in/zHjX9OFlPUTHIYATHALAIMURAI/index.m3u8
 OK   Tamil              Puthiya Thalaimurai (576p)  https://segment.yuppcdn.net/240122/puthiya/playlist.m3u8
 OK   Tamil              Puthiya Thalaimurai (576p)  https://streams.tangotv.in/PUTHIYATHALAIMURAI/ORIGIN/index.m3u8
-DEAD Tamil              News18 Tamil Nadu (1080p)  https://n18syndication.akamaized.net/bpk-tv/News18_Tamil_Nadu_NW18_MOB/output01/master.m3u8
+OK   Tamil              News18 Tamil Nadu (1080p)  https://n18syndication.akamaized.net/bpk-tv/News18_Tamil_Nadu_NW18_MOB/output01/master.m3u8
 OK   Tamil              News 7 Tamil (576p)  https://cdn.pishow.tv/ott/live/1498/master.m3u8
 OK   Tamil              News 7 Tamil (576p)  https://mumt07.tangotv.in/zHjX9OFlNEWS7TAMIL/index.m3u8
 OK   Tamil              News 7 Tamil (576p)  https://segment.yuppcdn.net/240122/news7/playlist.m3u8

@@ -1,22 +1,22 @@
-# My IPTV
+# ZED.TV
 
-Tamil, Sri Lankan, Cricket, English kids and Islamic TV channels, filtered from [iptv-org/iptv](https://github.com/iptv-org/iptv).
+Channel list and Android TV app for ZED.TV.
 
 ## Playlist URL
 
 ```
-https://raw.githubusercontent.com/mohamedzakee/my-iptv/main/tv.m3u
+https://raw.githubusercontent.com/mohamedzakee/zedtv/main/tv.m3u
 ```
 
-Paste this link into VLC (Media → Open Network Stream), TiviMate or IPTV Smarters.
+Paste this link into VLC (Media → Open Network Stream).
 
 ## Android TV app
 
-Download: [my-iptv.apk](https://github.com/mohamedzakee/my-iptv/releases/download/app/my-iptv.apk) (built automatically from the `android/` folder). Install it on the TV with the Downloader app.
+Download: [zedtv.apk](https://github.com/mohamedzakee/zedtv/releases/download/app/zedtv.apk) (built automatically from the `android/` folder). Install it on the TV with the Downloader app.
 
-## Channels (49 working)
+## Channels (50 working)
 
-_Last checked: 24 Nov 2026, 06:59 PM (Sri Lanka time). Updated automatically every day; dead streams are dropped and up to 2 working streams are kept per channel._
+_Last checked: 24 Nov 2026, 07:05 PM (Sri Lanka time). Updated automatically every day; dead streams are dropped and up to 2 working streams are kept per channel._
 
 ### Kids (English) (12)
 
@@ -47,7 +47,7 @@ _Last checked: 24 Nov 2026, 06:59 PM (Sri Lanka time). Updated automatically eve
 
 _No working streams right now._
 
-### Tamil (14)
+### Tamil (15)
 
 - Star Vijay
 - Zee Tamil
@@ -59,6 +59,7 @@ _No working streams right now._
 - Polimer News
 - Thanthi TV
 - Puthiya Thalaimurai
+- News18 Tamil Nadu
 - News 7 Tamil
 - Sathiyam TV
 - Kalaignar Seithigal
@@ -94,6 +95,6 @@ _No working streams right now._
 
 ## Notes
 
-- These are free public streams found by the iptv-org community. Some may stop working or play only at certain hours.
+- These are free public streams. Some may stop working or play only at certain hours.
 - See [report.txt](report.txt) for the result of every stream tested.
 - Channel list is set in [scripts/build.py](scripts/build.py).
