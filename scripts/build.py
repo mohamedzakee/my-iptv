@@ -50,10 +50,12 @@ def parse(path):
 streams = {}
 for f in sorted(glob.glob(f"{SRC}/iptv/streams/*.m3u")):
     for e in parse(f):
-        m = re.search(r'tvg-id="([^"@]*)', e["inf"])
+        m = re.search(r'tvg-id="([^"@]*)(@[^"]*)?"', e["inf"])
         if m:
             e["name"] = e["inf"].split(",", 1)[1].strip()
             streams.setdefault(m.group(1), []).append(e)
+            if m.group(2):  # also index by feed, e.g. "WOWKidz.in@Tamil", to pick one language
+                streams.setdefault(m.group(1) + m.group(2), []).append(e)
 
 def works(e):
     headers = {"User-Agent": UA}
@@ -81,8 +83,8 @@ for (g, cid, e), good in zip(wanted, ok):
     count[cid] = count.get(cid, 0) + 1
     name = re.sub(r"\s*\[.*?\]", "", e["name"]).strip()
     if count[cid] == 1:
-        listed[g].append(names.get(cid, name))
-    lines.append(f'#EXTINF:-1 tvg-id="{cid}" tvg-logo="{logos.get(cid, "")}" group-title="{g}",{name}')
+        listed[g].append(names.get(cid.split("@")[0], name))
+    lines.append(f'#EXTINF:-1 tvg-id="{cid}" tvg-logo="{logos.get(cid.split("@")[0], "")}" group-title="{g}",{name}')
     lines += e["opts"] + [e["url"]]
 
 open(OUT, "w", encoding="utf-8").write("\n".join(lines) + "\n")
