@@ -6,7 +6,7 @@ DEAD Kids (English)     Disney Junior (480p)  http://tvsen5.aynascope.net/disney
 DEAD Kids (English)     Disney Junior (480p)  http://tvsen7.aynascope.net/disney/index.m3u8
 DEAD Kids (English)     Disney Junior (480p)  http://tvsen7.aynascope.net/disneyjr/index.m3u8
 OK   Kids (English)     Disney Junior (480p)  https://directv-iptv-player.vercel.app/api/stream?url=http://212.5.144.156:8080/disneyjr/tracks-v1a1/mono.m3u8
-OK   Kids (English)     Disney Junior (720p) [Not 24/7]  https://chunk.tvnow247.today/api/proxy/playlist?token=eyJjaGFubmVsSWQiOiI2NTIiLCJjaGFpbiI6InIyIiwidHMiOjE3OTQ4Njc4ODI0MDR9
+DEAD Kids (English)     Disney Junior (720p) [Not 24/7]  https://chunk.tvnow247.today/api/proxy/playlist?token=eyJjaGFubmVsSWQiOiI2NTIiLCJjaGFpbiI6InIyIiwidHMiOjE3OTQ4Njc4ODI0MDR9
 OK   Kids (English)     Disney Junior (576p) [Geo-blocked]  http://212.5.144.156/disneyjr/index.m3u8
 DEAD Kids (English)     Nickelodeon  https://cache0.wonvt.st/live/1ewxgzu023dos60vlh62k/master.m3u8
 OK   Kids (English)     Nick Jr. (720p)  http://212.5.144.156:8080/nickjr/index.m3u8
@@ -56,6 +56,44 @@ DEAD Kids (English)     Tiny Pop +1 (576p)  http://92.114.85.72:8000/play/a08p
 OK   Kids (English)     Tiny Pop (1080p)  https://amg01753-narrativeuk-amg01753c1-rakuten-uk-2339.playouts.now.amagi.tv/playlist.m3u8
 OK   Kids (English)     Tiny POP (1080p)  https://amg01753-narrativeentert-tinypop-samsunguk-hvvb7.amagi.tv/playlist/amg01753-narrativeentert-tinypop-samsunguk/playlist.m3u8
 OK   Kids (Tamil)       WOW Kidz Tamil (720p)  https://yuppparoriglin.akamaized.net/181224/smil:wowkidztam.smil/playlist.m3u8?hdnts=st=1735898689~exp=1835898688~acl=*~hmac=f5fe24724fe05481e3841f9eb5ab8efdee0a3dd83645ae9dcf45703f525bab7b
+OK   Learn English      BBC News Europe  https://dash2.antik.sk/live/test_bbc_world/playlist.m3u8
+DEAD Learn English      BBC News Asia Pacific (480p)  https://proxy-v.rctiplus.id/live/web/bbcworld/index.m3u8
+DEAD Learn English      BBC News Europe (576p)  http://46.32.176.50/bbcworld/index.m3u8
+DEAD Learn English      BBC News Europe (576p)  http://stream.mcquack.net/85/index.m3u8
+OK   Learn English      BBC News Europe (576p)  https://stream8.cinerama.uz/1251/tracks-v1a1/mono.m3u8
+OK   Learn English      BBC News North America (576p)  https://tvsen1.aynaott.com/shn6jGTk/index.m3u8
+OK   Learn English      BBC News South Asia (720p)  https://mumbai-edge.smartplaytv.in/BBCNews/index.m3u8
+DEAD Learn English      BBC News South Asia  http://103.253.74.210:7070/stream/114/index.m3u8
+DEAD Learn English      BBC News UK HD (1080p)  http://45.153.96.44:8001
+OK   Learn English      BBC News UK HD (720p)  https://n-5-1.eu.cdn-redge.media/livehls/oeu/mt/live/bbc_news/live.livx/playlist.m3u8
+DEAD Learn English      BBC News (720p)  https://vs-cmaf-push-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_news_channel_hd/iptv_hd_abr_v1.mpd
+OK   Learn English      BBC News (720p)  https://vs-hls-push-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_news_channel_hd/mobile_wifi_main_hd_abr_v2.m3u8
+OK   Learn English      BBC News (540p)  https://vs-hls-push-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_news_channel_hd/mobile_wifi_main_sd_abr_v2.m3u8
+DEAD Learn English      BBC News (540p) [Geo-blocked]  https://vs-hls-push-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_news_channel_hd/mobile_wifi_main_sd_abr_v2.m3u8
+DEAD Learn English      BBC News (1080p) (HEVC) (1080p)  https://vs-cmaf-push-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_news_channel_hd/hevc_iptv_mse_v0.mpd
+DEAD Learn English      BBC News (1080p) (HEVC) [Geo-blocked]  https://vs-cmaf-push-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_news_channel_hd/hevc_iptv_mse_v0.mpd
+DEAD Learn English      BBC News HD (720p) [Geo-blocked]  https://vs-cmaf-push-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_news_channel_hd/iptv_hd_abr_v1.mpd
+DEAD Learn English      BBC News HD (720p) [Geo-blocked]  https://vs-hls-push-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_news_channel_hd/mobile_wifi_main_hd_abr_v2.m3u8
+OK   Learn English      BBC News North America (1080p)  http://23.237.104.106:8080/USA_BBC_NEWS/index.m3u8
+OK   Learn English      BBC News North America (720p)  https://jmp2.uk/plu-65d92a8c8b24c80008e285c0.m3u8
+OK   Learn English      BBC News (1080p) [Geo-blocked]  https://pb-iiczlgfysam0q.akamaized.net/v1/amcnetworks_bbcnews_1/samsungheadend_us/latest/main/hls/playlist.m3u8
+OK   Learn English      BBC News (1080p)  https://b638a299.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/Vml6aW9fQkJDTmV3c19ITFM/playlist.m3u8
+DEAD Learn English      National Geographic  http://82.47.42.44/stream/405/index.m3u8
+DEAD Learn English      BBC Earth Asia (720p)  https://proxy-v.rctiplus.id/live/web/bbcearth/index.m3u8
+OK   Learn English      BBC Earth Czechia  http://88.212.7.14/live/test_bbc_eartch_hevc/playlist.m3u8
+OK   Learn English      BBC Earth Hungary  http://88.212.7.14/live/bbce_hun/index.m3u8
+DEAD Learn English      BBC Earth Turkiye  https://nord.ayakkabiparti.lol/bbc/index.m3u8
+OK   Learn English      BBC Earth (1080p) [Geo-blocked]  https://amg00793-amg00793c6-firetv-us-4067.playouts.now.amagi.tv/playlist.m3u8
+OK   Learn English      BBC Earth (720p)  https://jmp2.uk/plu-656535fc2c46f30008870fae.m3u8
+OK   Learn English      BBC Earth (1080p) [Geo-blocked]  https://pb-zjy36qhp8e8cz.akamaized.net/BBC_Earth_US.m3u8
+OK   Learn English      BBC Earth (720p)  https://aegis-cloudfront-1.tubi.video/bb1fc6ad-9948-42ea-aaf3-20acfcdeecac/playlist.m3u8
+OK   Learn English      BBC Earth (1080p)  https://amg00793-amg00793c6-vizio-us-2670.playouts.now.amagi.tv/playlist/amg00793-bbcstudios-bbcearthaall-vizious/playlist.m3u8
+OK   Learn English      BBC Earth (1080p)  https://amg00793-amg00793c6-xumo-us-2669.playouts.now.amagi.tv/BBCStudios-BBCEarthA-hls/playlist.m3u8
+OK   Learn English      History TV18 HD (1080p) [Geo-blocked]  https://amg01448-amg01448c16-samsung-in-3495.playouts.now.amagi.tv/playlist/amg01448-samsungindia-historychannelenglish-samsungin/playlist.m3u8
+OK   Learn English      History TV18 HD Hindi (1080p) [Geo-blocked]  https://amg01448-amg01448c16-samsung-in-3495.playouts.now.amagi.tv/ts-ap-s1-n1/playlist/amg01448-samsungindia-historychannelhindi-samsungin/playlist.m3u8
+OK   Learn English      TED (1080p)  https://d1b16tvvxk3tnu.cloudfront.net/TED.m3u8
+OK   Learn English      English Club TV  https://dash2.antik.sk/live/test_ectv_hd_1200/playlist.m3u8
+OK   Learn English      English Club TV (576i)  https://stream8.cinerama.uz/1442/tracks-v1a1/mono.m3u8
 OK   Sri Lanka          Hiru TV (360p) [Not 24/7]  https://tv.hiruhost.com:1936/8012/8012/playlist.m3u8
 OK   Sri Lanka          Rupavahini (720p)  https://rpn.bozztv.com/slrclive/slrc/slrclive/index.m3u8
 DEAD Sri Lanka          Swarnavahini (480p)  https://teledrama.ebc.lk/TTT/proxy.php
