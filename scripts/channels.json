@@ -1,6 +1,7 @@
 {
   "Kids (English)": [
     "CartoonNetworkAsia.sg",
+    "CartoonNetworkHDPlus.in",
     "DisneyChannel.us",
     "DisneyJunior.us",
     "Nickelodeon.us",
@@ -24,11 +25,20 @@
   "Learn English": [
     "BBCNews.uk",
     "DiscoveryChannel.in",
-    "NationalGeographic.uk",
+    "NationalGeographic.in",
+    "AnimalPlanet.us",
     "BBCEarth.uk",
+    "DiscoveryScience.in",
     "HistoryTV18.in",
     "TED.us",
     "EnglishClubTV.uk"
+  ],
+  "English News": [
+    "AlJazeera.qa@English",
+    "BloombergTV.us",
+    "DW.de@English",
+    "NHKWorldJapan.jp",
+    "CNAInternational.sg"
   ],
   "Sri Lanka": [
     "TVDerana.lk",
