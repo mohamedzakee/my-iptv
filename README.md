@@ -14,15 +14,16 @@ Paste this link into VLC (Media → Open Network Stream).
 
 Download: [zedtv.apk](https://github.com/mohamedzakee/zedtv/releases/download/app/zedtv.apk) (built automatically from the `android/` folder). Install it on the TV with the Downloader app.
 
-## Channels (53 working)
+## Channels (59 working)
 
-_Last checked: 25 Nov 2026, 09:46 AM (Sri Lanka time). Updated automatically every day; dead streams are dropped and up to 2 working streams are kept per channel._
+_Last checked: 25 Nov 2026, 06:35 PM (Sri Lanka time). Updated automatically every day; dead streams are dropped and up to 2 working streams are kept per channel._
 
-### Kids (English) (11)
+### Kids (English) (12)
 
 - Cartoon Network Asia
 - Disney Channel
 - Disney Junior
+- Nick Jr.
 - Cartoonito Asia
 - PBS Kids
 - Boomerang
@@ -36,16 +37,24 @@ _Last checked: 25 Nov 2026, 09:46 AM (Sri Lanka time). Updated automatically eve
 
 - WOW Kidz
 
-### Learn English (4)
+### Learn English (5)
 
 - BBC News
+- Animal Planet
 - BBC Earth
 - TED
 - English Club TV
 
-### Sri Lanka (3)
+### English News (5)
 
-- Hiru TV
+- Al Jazeera
+- Bloomberg TV
+- DW
+- NHK World-Japan
+- CNA International
+
+### Sri Lanka (2)
+
 - Rupavahini
 - Siyatha TV
 
