@@ -16,7 +16,7 @@ Download: [zedtv.apk](https://github.com/mohamedzakee/zedtv/releases/download/ap
 
 ## Channels (59 working)
 
-_Last checked: 25 Nov 2026, 06:35 PM (Sri Lanka time). Updated automatically every day; dead streams are dropped and up to 2 working streams are kept per channel._
+_Last checked: 26 Nov 2026, 09:07 AM (Sri Lanka time). Updated automatically every day; dead streams are dropped and up to 2 working streams are kept per channel._
 
 ### Kids (English) (12)
 
@@ -53,8 +53,9 @@ _Last checked: 25 Nov 2026, 06:35 PM (Sri Lanka time). Updated automatically eve
 - NHK World-Japan
 - CNA International
 
-### Sri Lanka (2)
+### Sri Lanka (3)
 
+- Hiru TV
 - Rupavahini
 - Siyatha TV
 
@@ -90,10 +91,9 @@ _No working streams right now._
 - Amrita TV
 - DD Malayalam
 
-### Cricket (5)
+### Cricket (4)
 
 - Sony Sports Ten 3 Hindi
-- Willow
 - Willow Sports
 - Gazi TV
 - DD Sports
