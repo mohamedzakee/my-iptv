@@ -14,9 +14,9 @@ Paste this link into VLC (Media → Open Network Stream).
 
 Download: [zedtv.apk](https://github.com/mohamedzakee/zedtv/releases/download/app/zedtv.apk) (built automatically from the `android/` folder). Install it on the TV with the Downloader app.
 
-## Channels (59 working)
+## Channels (61 working)
 
-_Last checked: 26 Nov 2026, 09:07 AM (Sri Lanka time). Updated automatically every day; dead streams are dropped and up to 2 working streams are kept per channel._
+_Last checked: 27 Nov 2026, 09:10 AM (Sri Lanka time). Updated automatically every day; dead streams are dropped and up to 2 working streams are kept per channel._
 
 ### Kids (English) (12)
 
@@ -91,10 +91,12 @@ _No working streams right now._
 - Amrita TV
 - DD Malayalam
 
-### Cricket (4)
+### Cricket (6)
 
+- Sony Sports Ten 2
 - Sony Sports Ten 3 Hindi
 - Willow Sports
+- T Sports
 - Gazi TV
 - DD Sports
 
