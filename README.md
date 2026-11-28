@@ -14,16 +14,15 @@ Paste this link into VLC (Media → Open Network Stream).
 
 Download: [zedtv.apk](https://github.com/mohamedzakee/zedtv/releases/download/app/zedtv.apk) (built automatically from the `android/` folder). Install it on the TV with the Downloader app.
 
-## Channels (61 working)
+## Channels (59 working)
 
-_Last checked: 27 Nov 2026, 09:10 AM (Sri Lanka time). Updated automatically every day; dead streams are dropped and up to 2 working streams are kept per channel._
+_Last checked: 28 Nov 2026, 08:51 AM (Sri Lanka time). Updated automatically every day; dead streams are dropped and up to 2 working streams are kept per channel._
 
-### Kids (English) (12)
+### Kids (English) (11)
 
 - Cartoon Network Asia
 - Disney Channel
 - Disney Junior
-- Nick Jr.
 - Cartoonito Asia
 - PBS Kids
 - Boomerang
@@ -91,12 +90,11 @@ _No working streams right now._
 - Amrita TV
 - DD Malayalam
 
-### Cricket (6)
+### Cricket (5)
 
 - Sony Sports Ten 2
 - Sony Sports Ten 3 Hindi
 - Willow Sports
-- T Sports
 - Gazi TV
 - DD Sports
 
